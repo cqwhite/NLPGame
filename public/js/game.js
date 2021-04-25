@@ -25,8 +25,7 @@ const { NlpManager } = require('node-nlp');
 
 const manager = new NlpManager({ languages: ['en'], forceNER: true });
 
-module.exports = {
-    main: function(message){
+function main(message){
     manager.addDocument('en', 'say about you', 'agent.acquaintance');
     manager.addDocument('en', 'why are you here', 'agent.acquaintance');
     manager.addDocument('en', 'what is your personality', 'agent.acquaintance');
@@ -55,12 +54,13 @@ module.exports = {
     manager.addAnswer('en', 'agent.acquaintance', "I'm a conversational app");
 
     
-    (async() => {
+    const final = (async() => {
         await manager.train();
         manager.save();
         const response = await manager.process('en', message);
-        console.log(response.answer)
-        return response.answer
+        return response
     })();
+    return final
 }
-}
+
+exports.main = main;

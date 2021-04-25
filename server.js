@@ -1,4 +1,4 @@
-const game = require("./public/js/game.js");
+const game = require('./public/js/game.js');
 
 const fastify = require('fastify')({
     logger: true
@@ -11,7 +11,10 @@ const fastify = require('fastify')({
   })
   
   
-  fastify.get('/', function (req, reply) {
+  fastify.get('/',async function (req, reply) {
+    var message = "who";
+    var response= await game.main(message);
+    console.log(response.answer);
     return reply.sendFile('index.html')
   });
 

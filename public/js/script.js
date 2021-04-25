@@ -1,8 +1,3 @@
-//import main from('./game,js');
-
-const { main } = require("./game");
-
-
 //terminal work
 $('body').terminal({
     iam: function (name) {
@@ -19,8 +14,7 @@ $('body').terminal({
         +'begin - to begin the game!');
     },
     begin: function(message){
-        var response = main(message);
-        this.echo(response);
+        this.echo('woof')
         }
 }, {
     greetings: ' _________                           _________                __         .__        \n'
