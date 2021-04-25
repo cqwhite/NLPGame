@@ -1,3 +1,5 @@
+const game = require("./public/js/game.js");
+
 const fastify = require('fastify')({
     logger: true
   })
@@ -10,9 +12,9 @@ const fastify = require('fastify')({
   
   
   fastify.get('/', function (req, reply) {
-      return reply.sendFile('index.html') // serving path.join(__dirname, 'public', 'myHtml.html') directly
-    })
-  
+    return reply.sendFile('index.html')
+  });
+
   const start = async () => {
     try {
       await fastify.listen(3000)
