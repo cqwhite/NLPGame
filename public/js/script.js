@@ -14,8 +14,13 @@ $('body').terminal({
         +'begin - to begin the game!');
     },
     begin: function(message){
-        this.echo('woof')
-        }
+        var response = httpGet('/game/'+message);
+        this.echo(response)
+        },
+    display: function(response){
+        console.log("inside display")
+        this.echo(response)
+    }
 }, {
     greetings: ' _________                           _________                __         .__        \n'
     + '/   _____/__________    ____  ____   \\_   ___ \_____  _______/  |______  |__| ____  \n'
@@ -27,3 +32,13 @@ $('body').terminal({
     + '- by Connor White'
 });
 
+
+
+function httpGet(theUrl)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send(null);
+    console.log("logged text " + xmlHttp.responseText);
+    return xmlHttp.responseText;
+}

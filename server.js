@@ -10,11 +10,18 @@ const fastify = require('fastify')({
       prefix: '/public/',
   })
   
-  
-  fastify.get('/',async function (req, reply) {
-    var message = "who";
+
+  fastify.get('/game/:message', async function(req, reply){
+    var message = ("response is "+ req.params.message);
     var response= await game.main(message);
-    console.log(response.answer);
+    finalResponse = response.answer
+    console.log("in get request " + finalResponse)
+    return finalResponse;
+  });
+
+  
+
+  fastify.get('/',async function (req, reply) {
     return reply.sendFile('index.html')
   });
 
