@@ -26,32 +26,75 @@ const { NlpManager } = require('node-nlp');
 const manager = new NlpManager({ languages: ['en'], forceNER: true });
 
 function main(message){
-    manager.addDocument('en', 'say about you', 'agent.acquaintance');
-    manager.addDocument('en', 'why are you here', 'agent.acquaintance');
-    manager.addDocument('en', 'what is your personality', 'agent.acquaintance');
-    manager.addDocument('en', 'describe yourself', 'agent.acquaintance');
-    manager.addDocument('en', 'tell me about yourself', 'agent.acquaintance');
-    manager.addDocument('en', 'tell me about you', 'agent.acquaintance');
-    manager.addDocument('en', 'what are you', 'agent.acquaintance');
-    manager.addDocument('en', 'who are you', 'agent.acquaintance');
+    manager.addDocument('en', 'attack the', 'agent.attack');
+    manager.addDocument('en', 'destroy the', 'agent.attack');
+    manager.addDocument('en', 'attack', 'agent.attack');
+    manager.addDocument('en', 'destroy', 'agent.attack');
+    manager.addDocument('en', 'kill', 'agent.attack');
+    manager.addDocument('en', 'kill the', 'agent.attack');
+    manager.addDocument('en', 'fight them', 'agent.attack');
+    manager.addDocument('en', 'fight', 'agent.attack');
+    manager.addDocument('en', 'explode', 'agent.attack');
 
-    manager.addAnswer('en', 'agent.acquaintance', "I'm a virtual agent");
-    manager.addAnswer(
-        'en',
-        'agent.acquaintance',
-        'Think of me as a virtual agent'
-    );
-    manager.addAnswer(
-        'en',
-        'agent.acquaintance',
-        "Well, I'm not a person, I'm a virtual agent"
-    );
-    manager.addAnswer(
-        'en',
-        'agent.acquaintance',
-        "I'm a virtual being, not a real person"
-    );
-    manager.addAnswer('en', 'agent.acquaintance', "I'm a conversational app");
+    manager.addDocument('en', 'escape', 'agent.escape');
+    manager.addDocument('en', 'run away from', 'agent.escape');
+    manager.addDocument('en', 'flee', 'agent.escape');
+    manager.addDocument('en', 'flee from', 'agent.escape');
+    manager.addDocument('en', 'lighspeed', 'agent.escape');
+    manager.addDocument('en', 'hyperspace', 'agent.escape');
+    manager.addDocument('en', 'continue on', 'agent.escape');
+
+    manager.addDocument('en', 'bribe them', 'agent.bribe');
+
+    manager.addDocument('en', 'investigate', 'agent.investigate');
+    //study, go to, check out, look at
+
+    manager.addDocument('en', 'trick', 'agent.trick');
+    
+    manager.addDocument('en', 'repair ship', 'agent.repair');
+    manager.addDocument('en', 'rebuild ship', 'agent.repair');
+    manager.addDocument('en', 'buy ship parts', 'agent.repair');
+    manager.addDocument('en', 'fix', 'agent.repair');
+    manager.addDocument('en', 'fix the ship', 'agent.repair');
+
+    /*
+    peace
+    negiotate
+    explode
+    befriend
+    remove
+    go on foot
+    send a team
+    try to find
+    mine/collect/retrieve
+    shields/defense/
+    evade/dodge
+    carefully/slowly
+    */
+
+
+    
+
+    manager.addAnswer('en', 'agent.attack', "We destroyed the enemy, but took damage in the battle, the crew looks happy though");
+    manager.addAnswer('en', 'agent.attack', "Captain the ship took heavy damages from the battle, the crew was pleased with your decision");
+    manager.addAnswer('en', 'agent.attack', "The crew was excited for some combat, but we took damages to our ship");
+
+    manager.addAnswer('en', 'agent.escape', "We jumped into hyperspace, we lost fuel and the crew is upset");
+    manager.addAnswer('en', 'agent.escape', "We escaped the crew is upset for missing action, and we lost some fuel");
+
+    manager.addAnswer('en', 'agent.bribe', "We lost credits, but were not harmed, the crew liked your style");
+
+    manager.addAnswer('en', 'agent.investigate', "We found credits, but lost some fuel");
+    
+
+    manager.addAnswer('en', 'agent.trick', "Our trick failed and we were attacked! Lost crew loyalty and damaged the ship");
+
+    manager.addAnswer('en', 'agent.repair', "The ship was repaired a bit, but we lost some supplies and credits");
+
+
+    
+
+
 
     
     const final = (async() => {

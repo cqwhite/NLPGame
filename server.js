@@ -12,12 +12,21 @@ const fastify = require('fastify')({
   
 
   fastify.get('/game/:message', async function(req, reply){
-    var message = ("response is "+ req.params.message);
+    var message = (req.params.message);
     var response= await game.main(message);
     finalResponse = response.answer
     console.log("in get request " + finalResponse)
     return finalResponse;
   });
+
+  fastify.get('/intent/:message', async function(req, reply){
+    var message = (req.params.message);
+    var response= await game.main(message);
+    finalResponse = response.intent
+    console.log("in intent get request " + finalResponse)
+    return finalResponse;
+  });
+
 
   
 
