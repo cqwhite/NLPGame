@@ -15,8 +15,7 @@ $('body').terminal({
         this.echo('Connor White');
     },
     help: function () {
-        this.echo('iam - iam command and '
-        + 'pass your name as argument\n'
+        this.echo('Answer questions to keep your stats above 0 for 20 rounds to win!\n'
         + 'founder - to know the founder\n'
         +'response - to respond to the AI!\n'
         + 'stats - view current game stats\n'
@@ -36,6 +35,7 @@ $('body').terminal({
             +randomEvent());
             if(loseConditions(shipHealth, crewLoyalty, credits, shipFuel)){
                 this.clear();
+                interpretIntent(intent);
                 this.echo("YOU LOSE!\n Refresh to replay");
             }
             gameTurn++
@@ -51,7 +51,7 @@ $('body').terminal({
     },
 
     round: function(){
-        this.echo((25-gameTurn)+" turns remain till we have arrived back home!")
+        this.echo((20-gameTurn)+" turns remain till we have arrived back home!")
     }
 }, {
     greetings: ' _________                           _________                __         .__        \n'
@@ -80,22 +80,32 @@ function randomEvent(){
     //open ended questions, not yes or no!!!
     eventList = [
         "An Alien Ship is waiting near by, it seems hostile, what should we do?", //1
-        "Captain we found the crews plans for a mutiny, what actions do we take?",
+        "Captain we found the crews plans for a mutiny, what action do we take?",
         "A destress signal is coming from that abondended space station, what should we do?",
         "Sir a group of Androids have gone rogue, how should we deal with this?",
         "Captain we found a rare meteor near the ship, what should we do?", //5
         "A band of pirates are targeting our ship, what should we do?",
-        "An engineer is offering to fix up our ship.",
+        "We found an enginner in a nearby space station, what should we ask him?",
         "Captain a solar storm is approaching how should we handle this?",
         "Captain an eldritch being is in our proximity, what do we do?",
-        "We have entered a astroid belt, how should we handle this?",
+        "We have entered a astroid belt, how should we handle this?",//10
+        "An experiment went wrong in our lab, how should we handle this?",
+        "Captain we are approaching a blackhole, what action do we take?",
+        "An unkown planet is approaching, what should we do?",
+        "A comet is passing dangeriously close to our ship, what do we do?",
+        "Captain a friendly frieghter is passing by, what action should we take?", //15
+        "Captain an antimatter explosion just went off a few light years away, what action do we take?",
+        "Sir a distress signal is coming from an nearby moon, what should we do?",
+        "Captain we found strange eggs covering the lower decks, what do we do?",
+        "An animal has escaped the lab and is running throughout the ship, what actoin do we take?",
+        "A nearby trading station is nearby, should we do anything?", //20
+
 
 
 
     ];
    eventChooser = Math.floor(Math.random() * eventList.length);
    chosenEvent = eventList[eventChooser] 
-   console.log(eventList.pop(eventChooser));
    return chosenEvent
 }
 
@@ -146,12 +156,111 @@ function interpretIntent(intent){
         }
     }
     //ship+ credits-
-    else if(intent== "agent.trick"){
-        if(shipHealth <5){        
+    else if(intent== "agent.repair"){
+        if(shipHealth < 5){        
             shipHealth+=1;
         }
         if(credits < 5){
             credits-=1;
+        }
+    }
+    //ship+ credits-
+    else if(intent== "agent.peace"){
+        if(shipHealth < 5){        
+            shipHealth+=1;
+        }
+        if(credits < 5){
+            credits-=1;
+        }
+    }
+    //crew+ credits-
+    else if(intent== "agent.remove"){
+        if(crewLoyalty < 5){        
+            crewLoyalty+=1;
+        }
+        if(credits < 5){
+            credits-=1;
+        }
+    }
+    //crew- credits+
+    else if(intent== "agent.foot"){
+        if(crewLoyalty < 5){        
+            crewLoyalty-=1;
+        }
+        if(credits < 5){
+            credits+=1;
+        }
+    }
+    //fuel+ ship-
+    else if(intent== "agent.collect"){
+        if(shipHealth < 5){        
+            shipHealth-=1;
+        }
+        if(shipFuel < 5){
+            shipFuel+=1;
+        }
+    }
+    //fuel- credits-
+    else if(intent== "agent.defense"){
+        if(credits < 5){        
+            credits-=1;
+        }
+        if(shipFuel < 5){
+            shipFuel-=1;
+        }
+    }
+    //fuel-
+    else if(intent== "agent.dodge"){
+        if(shipFuel < 5){
+            shipFuel-=1;
+        }
+    }
+    //fuel+ crew-
+    else if(intent== "agent.careful"){
+        if(crewLoyalty < 5){        
+            crecrewLoyaltyits-=1;
+        }
+        if(shipFuel < 5){
+            shipFuel+=1;
+        }
+    }
+    //crew+ credits-
+    else if(intent== "agent.communicate"){
+        if(credits < 5){        
+            credits-=1;
+        }
+        if(crewLoyalty < 5){
+            crewLoyalty+=1;
+        }
+    }
+    //ship- crew- credits-
+    else if(intent== "agent.nothing"){
+        if(crewLoyalty < 5){        
+            crewLoyalty-=1;
+        }
+        if(credits < 5){
+            credits-=1;
+        }
+        if(shipHealth < 5){
+            shipHealth-=1;
+        }
+    }
+    //fuel+ credits+
+    else if(intent== "agent.buyFuel"){
+        if(credits < 5){        
+            credits-=1;
+        }
+        if(shipFuel < 5){
+            shipFuel+=1;
+        }
+    }
+    //crew- fuel
+    else if(intent== "agent.eat"){
+        if(crewLoyalty < 5){        
+            crewLoyalty-=1;
+        }
+        if(shipFuel < 5){
+            shipFuel+=1;
         }
     }
     
@@ -165,7 +274,7 @@ function loseConditions(health, loyalty, spaceCredits, fuel,){
 }
 
 function winCondition(turn){
-    if(turn>=25){
+    if(turn>=20){
         return true
     }
     return false
