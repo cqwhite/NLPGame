@@ -67,6 +67,7 @@ function main(message){
     manager.addDocument('en', 'buy ship parts', 'agent.repair');
     manager.addDocument('en', 'fix', 'agent.repair');
     manager.addDocument('en', 'fix the ship', 'agent.repair');
+    manager.addDocument('en', 'clean', 'agent.repair');
 
     manager.addDocument('en', 'peace', 'agent.peace');
     manager.addDocument('en', 'befriend them', 'agent.peace');
@@ -79,6 +80,7 @@ function main(message){
     manager.addDocument('en', 'calm', 'agent.peace');
     manager.addDocument('en', 'try to calm', 'agent.peace');
     manager.addDocument('en', 'calm them', 'agent.peace');
+    manager.addDocument('en', 'invite them', 'agent.peace');
     
     manager.addDocument('en', 'remove', 'agent.remove');
 
@@ -92,6 +94,7 @@ function main(message){
     manager.addDocument('en', 'collect', 'agent.collect');
     manager.addDocument('en', 'retrieve', 'agent.collect');
     manager.addDocument('en', 'mine', 'agent.collect');
+    
 
     manager.addDocument('en', 'defense', 'agent.defense');
     manager.addDocument('en', 'defensively', 'agent.defense');
@@ -126,6 +129,9 @@ function main(message){
     manager.addDocument('en', 'consume', 'agent.eat');
     manager.addDocument('en', 'taste', 'agent.eat');
 
+    manager.addDocument('en', 'capture', 'agent.capture');
+    manager.addDocument('en', 'cage', 'agent.capture');
+    manager.addDocument('en', 'pet', 'agent.capture');
 
     /*
     other documents
@@ -187,6 +193,8 @@ function main(message){
 
     manager.addAnswer('en', 'agent.eat', "We ate the item, the crew got sick, but we learned we could turn it into fuel");
     manager.addAnswer('en', 'agent.eat', "We consumed the item, the crew hated it but eventually turned the item into ship fuel");
+
+    manager.addAnswer('en', 'agent.capture', "We capture the entity! Our ship took damage, but the crew was happy for a pet!");
 
 
     

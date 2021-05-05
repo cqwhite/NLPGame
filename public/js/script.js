@@ -99,10 +99,9 @@ function randomEvent(){
         "Captain we found strange eggs covering the lower decks, what do we do?",
         "An animal has escaped the lab and is running throughout the ship, what actoin do we take?",
         "A nearby trading station is nearby, should we do anything?", //20
-
-
-
-
+        "A giant chicken is floating nearby by, what should we do?",
+        "Strange alien ants are flooding the decks, what action do we take?",
+        "Sir there is a whole in our ship, we do we do?",
     ];
    eventChooser = Math.floor(Math.random() * eventList.length);
    chosenEvent = eventList[eventChooser] 
@@ -254,13 +253,22 @@ function interpretIntent(intent){
             shipFuel+=1;
         }
     }
-    //crew- fuel
+    //crew- fuel+
     else if(intent== "agent.eat"){
         if(crewLoyalty < 5){        
             crewLoyalty-=1;
         }
         if(shipFuel < 5){
             shipFuel+=1;
+        }
+    }
+    //crew+ health+
+    else if(intent== "agent.capture"){
+        if(crewLoyalty < 5){        
+            crewLoyalty+=1;
+        }
+        if(shipHealth < 5){
+            shipHealth+=1;
         }
     }
     
