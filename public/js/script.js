@@ -101,7 +101,7 @@ function randomEvent(){
         "A nearby trading station is nearby, should we do anything?", //20
         "A giant chicken is floating nearby by, what should we do?",
         "Strange alien ants are flooding the decks, what action do we take?",
-        "Sir there is a whole in our ship, we do we do?",
+        "Sir there is a whole in our ship, what do we do?",
     ];
    eventChooser = Math.floor(Math.random() * eventList.length);
    chosenEvent = eventList[eventChooser] 
