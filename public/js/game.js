@@ -133,6 +133,8 @@ function main(message){
     manager.addDocument('en', 'cage', 'agent.capture');
     manager.addDocument('en', 'pet', 'agent.capture');
 
+    manager.addDocument('en', 'error', 'agent.error')
+
     /*
     other documents
     */
@@ -195,6 +197,8 @@ function main(message){
     manager.addAnswer('en', 'agent.eat', "We consumed the item, the crew hated it but eventually turned the item into ship fuel");
 
     manager.addAnswer('en', 'agent.capture', "We capture the entity! Our ship took damage, but the crew was happy for a pet!");
+
+    manager.addAnswer('en', 'agent.error', "An error has occured in reality, nothing has happened")
 
 
     
