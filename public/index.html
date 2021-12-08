@@ -2,6 +2,9 @@
 <html lang="en">
  <title>NLP Game</title>
 <head>
+    <style>
+        * {background-color: black};        
+    </style>
     <meta http-equiv="content-type"
         content="text/html; charset=UTF-8">
  
@@ -36,10 +39,107 @@
  
 <body>
     <script src="public/js/script.js"></script>
+    
     <audio autoplay loop>
         <source src="public/music/space.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
+</body>
+
+</html>
+
+<!doctype html>
+
+<head>
+    <style>
+        body {
+            font-family: arial;
+            color: green;
+            background-color: black;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #6a67ce;
+            color: #FFFFFF;
+            border: 0px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #output {
+            background-color: #F9F9F9;
+            padding: 10px;
+            width: 100%;
+            margin-top: 20px;
+            line-height: 30px;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .show {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Speech to Text</h2>
+    <p>Click on the below button and speak something to the terminal...</p>
+    <p><button type="button" onclick="runSpeechRecognition()">Speech to Text</button> &nbsp; <span id="action"></span>
+    </p>
+    <div id="output" class="hide"></div>
+    <script>
+        /* JS comes here */
+        function runSpeechRecognition() {
+            // get output div reference
+            var output = document.getElementById("output");
+            // get action element reference
+            var action = document.getElementById("action");
+            // new speech recognition object
+            var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
+            var recognition = new SpeechRecognition();
+
+            // This runs when the speech recognition service starts
+            recognition.onstart = function () {
+                action.innerHTML = "<small>listening, please speak...</small>";
+            };
+
+            recognition.onspeechend = function () {
+                action.innerHTML = "<small>stopped listening, hope you are done...</small>";
+                recognition.stop();
+            }
+
+            // This runs when the speech recognition service returns result
+            recognition.onresult = function (event) {
+                var transcript = event.results[0][0].transcript;
+                output.innerHTML = "<b>Text:</b> " + transcript;
+                output.classList.remove("hide");
+            };
+
+            
+
+            // start recognition
+            recognition.start();
+
+            console.log(transcript)
+
+            //MAKE IT WORK WITH THE TERMINAL SCRIPT
+            //THIS BELLOW DOES NOT WORK
+            function httpGet(theUrl) {
+                var xmlHttp = new XMLHttpRequest();
+                xmlHttp.open("GET", theUrl, false); // false for synchronous request
+                xmlHttp.send(null);
+                console.log("logged text " + xmlHttp.responseText);
+                return xmlHttp.responseText;
+            }
+            var response = httpGet('/game/' + transcript);
+            var intent = httpGet('/intent/' + transcript);
+            
+        }
+    </script>
 </body>
 
 </html>
