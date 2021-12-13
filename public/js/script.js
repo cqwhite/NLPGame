@@ -5,6 +5,7 @@ let shipFuel = 3;
 
 let gameTurn = 1;
 
+let globalMessage = "";
 //terminal work
 $("body").terminal(
   {
@@ -18,9 +19,11 @@ $("body").terminal(
       this.echo(
         "Answer questions to keep your stats above 0 for 20 rounds to win!\n" +
           "founder - to know the founder\n" +
-          "response - to respond to the AI!\n" +
+          "response - to respond to the AI\n" +
           "stats - view current game stats\n" +
-          "round - gives the rounds left till victory"
+          "round - gives the rounds left till victory\n" +
+          "speechS - begins speech recognization, speak immediatly after entering\n" +
+          "speechE - ends speech recognization"
       );
     },
     response: function (message) {
@@ -28,12 +31,12 @@ $("body").terminal(
         this.echo("Response cannot be empty");
       } else {
         console.log("\nMessage = " + message);
-        var response = httpGet("/game/" + message);
+        var messageResponse = httpGet("/game/" + message);
         var intent = httpGet("/intent/" + message);
         console.log(intent);
         interpretIntent(intent);
         this.echo(
-          response +
+          messageResponse +
             "\nShip Health: " +
             shipHealth +
             "\n" +
@@ -83,6 +86,64 @@ $("body").terminal(
       this.echo(
         20 - gameTurn + " turns remain till we have arrived back home!"
       );
+    },
+
+    speechS: function () {
+      var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
+      var recognition = new SpeechRecognition();
+
+      // This runs when the speech recognition service starts
+      recognition.onstart = function () {};
+      this.echo("listening, please speak...");
+      recognition.onresult = function (event) {
+        var transcript = event.results[0][0].transcript;
+        globalMessage = transcript;
+        console.log(transcript);
+      };
+
+      // start recognition
+      recognition.start();
+    },
+    speechE: function () {
+      let message = globalMessage;
+      if (message == "") {
+        this.echo("Response cannot be empty");
+      } else {
+        console.log("\nMessage = " + message);
+        var messageResponse = httpGet("/game/" + message);
+        var intent = httpGet("/intent/" + message);
+        console.log(intent);
+        interpretIntent(intent);
+        this.echo(
+          messageResponse +
+            "\nShip Health: " +
+            shipHealth +
+            "\n" +
+            "Crew Loyalty: " +
+            crewLoyalty +
+            "\n" +
+            "Space Credits: " +
+            credits +
+            "\n" +
+            "Ship Fuel: " +
+            shipFuel +
+            "\n" +
+            "------------------------------------------------------------------------------------------------------\n" +
+            randomEvent()
+        );
+
+        globalMessage = "";
+        if (loseConditions(shipHealth, crewLoyalty, credits, shipFuel)) {
+          this.clear();
+          interpretIntent(intent);
+          this.echo("YOU LOSE!\n Refresh to replay");
+        }
+        gameTurn++;
+        if (winCondition(gameTurn)) {
+          this.clear();
+          this.echo("CONGRATS!\nYOU WON SPACE CAPTAIN!\n Refresh to replay");
+        }
+      }
     },
   },
   {
