@@ -76,44 +76,6 @@
         <source src="public/music/space.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
-    <h2>Speech to Terminal</h2>
-    <p>Click on the below button and speak something to the terminal...</p>
-    <p><button type="button" onclick="runSpeechRecognition()">Speech to Text</button> &nbsp; <span id="action"></span>
-    </p>
-    <script>
-        /* JS comes here */
-        function runSpeechRecognition() {
-            // get output div reference
-            // get action element reference
-            var action = document.getElementById("action");
-            // new speech recognition object
-            var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
-            var recognition = new SpeechRecognition();
-
-            // This runs when the speech recognition service starts
-            recognition.onstart = function () {
-                action.innerHTML = "<small>listening, please speak...</small>";
-            };
-
-            recognition.onspeechend = function () {
-                action.innerHTML = "<small>stopped listening, hope you are done...</small>";
-                recognition.stop();
-            }
-
-            // This runs when the speech recognition service returns result
-            recognition.onresult = function (event) {
-                var transcript = event.results[0][0].transcript;
-                console.log(transcript);
-            };
-            
-            
-
-            // start recognition
-            recognition.start();
-            
-            
-        }
-    </script>
 </body>
 
 </html>

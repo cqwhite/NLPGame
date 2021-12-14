@@ -18,7 +18,6 @@ fastify.get("/game/:message", async function (req, reply) {
   var message = req.params.message;
   var response = await game.main(message);
   finalResponse = response.answer;
-  console.log("in get request " + finalResponse);
   if (finalResponse == undefined) {
     var message = "error";
     var response = await game.main(message);
@@ -31,7 +30,6 @@ fastify.get("/intent/:message", async function (req, reply) {
   var message = req.params.message;
   var response = await game.main(message);
   finalResponse = response.intent;
-  console.log("in intent get request " + finalResponse);
   if (finalResponse == undefined) {
     var message = "error";
     var response = await game.main(message);

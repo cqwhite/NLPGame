@@ -6,6 +6,8 @@ let shipFuel = 3;
 let gameTurn = 1;
 
 let globalMessage = "";
+let globalSpeech = true;
+
 //terminal work
 $("body").terminal(
   {
@@ -23,7 +25,8 @@ $("body").terminal(
           "stats - view current game stats\n" +
           "round - gives the rounds left till victory\n" +
           "speechS - begins speech recognization, speak immediatly after entering\n" +
-          "speechE - ends speech recognization"
+          "speechE - ends speech recognization\n" +
+          "voice - turns voice on or off"
       );
     },
     response: function (message) {
@@ -33,8 +36,8 @@ $("body").terminal(
         console.log("\nMessage = " + message);
         var messageResponse = httpGet("/game/" + message);
         var intent = httpGet("/intent/" + message);
-        console.log(intent);
         interpretIntent(intent);
+        terminalSpeak(messageResponse, globalSpeech);
         this.echo(
           messageResponse +
             "\nShip Health: " +
@@ -55,6 +58,7 @@ $("body").terminal(
         if (loseConditions(shipHealth, crewLoyalty, credits, shipFuel)) {
           this.clear();
           interpretIntent(intent);
+          terminalSpeak("YOU LOSE", globalSpeech);
           this.echo("YOU LOSE!\n Refresh to replay");
         }
         gameTurn++;
@@ -109,11 +113,10 @@ $("body").terminal(
       if (message == "") {
         this.echo("Response cannot be empty");
       } else {
-        console.log("\nMessage = " + message);
         var messageResponse = httpGet("/game/" + message);
         var intent = httpGet("/intent/" + message);
-        console.log(intent);
         interpretIntent(intent);
+        terminalSpeak(messageResponse, globalSpeech);
         this.echo(
           messageResponse +
             "\nShip Health: " +
@@ -136,6 +139,7 @@ $("body").terminal(
         if (loseConditions(shipHealth, crewLoyalty, credits, shipFuel)) {
           this.clear();
           interpretIntent(intent);
+          terminalSpeak("YOU LOSE", globalSpeech);
           this.echo("YOU LOSE!\n Refresh to replay");
         }
         gameTurn++;
@@ -143,6 +147,15 @@ $("body").terminal(
           this.clear();
           this.echo("CONGRATS!\nYOU WON SPACE CAPTAIN!\n Refresh to replay");
         }
+      }
+    },
+    voice: function () {
+      if (globalSpeech == true) {
+        globalSpeech = false;
+        this.echo("voice is off");
+      } else {
+        globalSpeech = true;
+        this.echo("voice is back on");
       }
     },
   },
@@ -164,8 +177,13 @@ function httpGet(theUrl) {
   var xmlHttp = new XMLHttpRequest();
   xmlHttp.open("GET", theUrl, false); // false for synchronous request
   xmlHttp.send(null);
-  console.log("logged text " + xmlHttp.responseText);
   return xmlHttp.responseText;
+}
+
+function terminalSpeak(message, speechFlag) {
+  if (speechFlag == true) {
+    speechSynthesis.speak(new SpeechSynthesisUtterance(message));
+  }
 }
 
 function randomEvent() {
@@ -184,19 +202,20 @@ function randomEvent() {
     "An experiment went wrong in our lab, how should we handle this?",
     "Captain we are approaching a blackhole, what action do we take?",
     "An unkown planet is approaching, what should we do?",
-    "A comet is passing dangeriously close to our ship, what do we do?",
-    "Captain a friendly frieghter is passing by, what action should we take?", //15
+    "A comet is passing dangerously close to our ship, what do we do?",
+    "Captain a friendly freighter is passing by, what action should we take?", //15
     "Captain an antimatter explosion just went off a few light years away, what action do we take?",
     "Sir a distress signal is coming from an nearby moon, what should we do?",
     "Captain we found strange eggs covering the lower decks, what do we do?",
     "An animal has escaped the lab and is running throughout the ship, what actoin do we take?",
     "A nearby trading station is nearby, should we do anything?", //20
-    "A giant chicken is floating nearby by, what should we do?",
+    "A giant chicken is floating nearby, what should we do?",
     "Strange alien ants are flooding the decks, what action do we take?",
     "Sir there is a whole in our ship, what do we do?",
   ];
   eventChooser = Math.floor(Math.random() * eventList.length);
   chosenEvent = eventList[eventChooser];
+  terminalSpeak(chosenEvent, globalSpeech);
   return chosenEvent;
 }
 

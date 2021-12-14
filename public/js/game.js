@@ -81,6 +81,10 @@ function main(message) {
   manager.addDocument("en", "try to calm", "agent.peace");
   manager.addDocument("en", "calm them", "agent.peace");
   manager.addDocument("en", "invite them", "agent.peace");
+  manager.addDocument("en", "hi", "agent.peace");
+  manager.addDocument("en", "hello", "agent.peace");
+  manager.addDocument("en", "howdy", "agent.peace");
+  manager.addDocument("en", "hey", "agent.peace");
 
   manager.addDocument("en", "remove", "agent.remove");
 
@@ -90,6 +94,7 @@ function main(message) {
   manager.addDocument("en", "ground", "agent.foot");
   manager.addDocument("en", "send a team", "agent.foot");
   manager.addDocument("en", "send a crew", "agent.foot");
+  manager.addDocument("en", "land", "agent.foot");
 
   manager.addDocument("en", "collect", "agent.collect");
   manager.addDocument("en", "retrieve", "agent.collect");
@@ -222,7 +227,17 @@ function main(message) {
   manager.addAnswer(
     "en",
     "agent.peace",
-    "We negiotated a peace deal, we lost credits, luckily we had time to repair the ship"
+    "We negotiated a peace deal, we lost credits, luckily we had time to repair the ship"
+  );
+  manager.addAnswer(
+    "en",
+    "agent.peace",
+    "We made friends with the entitiy, we lost credits, luckily we had time to repair the ship"
+  );
+  manager.addAnswer(
+    "en",
+    "agent.peace",
+    "The entity was pleased with our interaction, we lost credits, luckily we had time to repair the ship"
   );
 
   manager.addAnswer(
@@ -244,7 +259,7 @@ function main(message) {
   manager.addAnswer(
     "en",
     "agent.foot",
-    "We sent a team on foot we found supplies, but a few crew members died.i"
+    "We sent a team on foot we found supplies, but a few crew members died"
   );
 
   manager.addAnswer(
