@@ -19220,6 +19220,2826 @@
             "domain": "default",
             "utterance": "error",
             "intent": "agent.error"
+          },
+          {
+            "domain": "default",
+            "utterance": "attack the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "destroy the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "attack",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "destroy",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "kill",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "kill the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "fight them",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "fight",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "explode",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "eliminate",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "punch",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "blow it up",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "escape",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "run away from",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "runaway",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "flee",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "flee from",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "lighspeed",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "hyperspace",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "continue on",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "abort",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "bribe them",
+            "intent": "agent.bribe"
+          },
+          {
+            "domain": "default",
+            "utterance": "investigate",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "check out",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "look at",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "study",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "go to",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "see what",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "find",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to find",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "trick",
+            "intent": "agent.trick"
+          },
+          {
+            "domain": "default",
+            "utterance": "repair ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "rebuild ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "buy ship parts",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "fix",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "fix the ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "clean",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "peace",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "befriend them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "befriend",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate a deal",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate peace",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "make peace with",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "calm",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to calm",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "calm them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "invite them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hi",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hello",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "howdy",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove",
+            "intent": "agent.remove"
+          },
+          {
+            "domain": "default",
+            "utterance": "go on foot",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send the cew",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "foot",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "ground",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send a team",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send a crew",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "land",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "collect",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "retrieve",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "mine",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "defense",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "defensively",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "shields",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "put up the shields",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "dodge",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "evade",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "maneuver",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "go around it",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "around",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "move",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "carefully",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "careful",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "slowly",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "slow",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "communicate",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to communicaate",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "talk",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "talk to",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "nothing",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "wait",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "do nothing",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "buy fuel",
+            "intent": "agent.buyFuel"
+          },
+          {
+            "domain": "default",
+            "utterance": "fuel",
+            "intent": "agent.buyFuel"
+          },
+          {
+            "domain": "default",
+            "utterance": "eat",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "consume",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "taste",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "capture",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "cage",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "pet",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "error",
+            "intent": "agent.error"
+          },
+          {
+            "domain": "default",
+            "utterance": "attack the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "destroy the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "attack",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "destroy",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "kill",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "kill the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "fight them",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "fight",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "explode",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "eliminate",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "punch",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "blow it up",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "escape",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "run away from",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "runaway",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "flee",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "flee from",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "lighspeed",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "hyperspace",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "continue on",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "abort",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "bribe them",
+            "intent": "agent.bribe"
+          },
+          {
+            "domain": "default",
+            "utterance": "investigate",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "check out",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "look at",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "study",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "go to",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "see what",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "find",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to find",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "trick",
+            "intent": "agent.trick"
+          },
+          {
+            "domain": "default",
+            "utterance": "repair ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "rebuild ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "buy ship parts",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "fix",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "fix the ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "clean",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "peace",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "befriend them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "befriend",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate a deal",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate peace",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "make peace with",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "calm",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to calm",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "calm them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "invite them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hi",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hello",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "howdy",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove",
+            "intent": "agent.remove"
+          },
+          {
+            "domain": "default",
+            "utterance": "go on foot",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send the cew",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "foot",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "ground",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send a team",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send a crew",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "land",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "collect",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "retrieve",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "mine",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "defense",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "defensively",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "shields",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "put up the shields",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "dodge",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "evade",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "maneuver",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "go around it",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "around",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "move",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "carefully",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "careful",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "slowly",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "slow",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "communicate",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to communicaate",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "talk",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "talk to",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "nothing",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "wait",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "do nothing",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "buy fuel",
+            "intent": "agent.buyFuel"
+          },
+          {
+            "domain": "default",
+            "utterance": "fuel",
+            "intent": "agent.buyFuel"
+          },
+          {
+            "domain": "default",
+            "utterance": "eat",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "consume",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "taste",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "capture",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "cage",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "pet",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "error",
+            "intent": "agent.error"
+          },
+          {
+            "domain": "default",
+            "utterance": "attack the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "destroy the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "attack",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "destroy",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "kill",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "kill the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "fight them",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "fight",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "explode",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "eliminate",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "punch",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "blow it up",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "escape",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "run away from",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "runaway",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "flee",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "flee from",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "lighspeed",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "hyperspace",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "continue on",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "abort",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "bribe them",
+            "intent": "agent.bribe"
+          },
+          {
+            "domain": "default",
+            "utterance": "investigate",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "check out",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "look at",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "study",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "go to",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "see what",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "find",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to find",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "trick",
+            "intent": "agent.trick"
+          },
+          {
+            "domain": "default",
+            "utterance": "repair ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "rebuild ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "buy ship parts",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "fix",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "fix the ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "clean",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "peace",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "befriend them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "befriend",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate a deal",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate peace",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "make peace with",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "calm",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to calm",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "calm them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "invite them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hi",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hello",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "howdy",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove",
+            "intent": "agent.remove"
+          },
+          {
+            "domain": "default",
+            "utterance": "go on foot",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send the cew",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "foot",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "ground",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send a team",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send a crew",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "land",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "collect",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "retrieve",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "mine",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "defense",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "defensively",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "shields",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "put up the shields",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "dodge",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "evade",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "maneuver",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "go around it",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "around",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "move",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "carefully",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "careful",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "slowly",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "slow",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "communicate",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to communicaate",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "talk",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "talk to",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "nothing",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "wait",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "do nothing",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "buy fuel",
+            "intent": "agent.buyFuel"
+          },
+          {
+            "domain": "default",
+            "utterance": "fuel",
+            "intent": "agent.buyFuel"
+          },
+          {
+            "domain": "default",
+            "utterance": "eat",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "consume",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "taste",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "capture",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "cage",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "pet",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "error",
+            "intent": "agent.error"
+          },
+          {
+            "domain": "default",
+            "utterance": "attack the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "destroy the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "attack",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "destroy",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "kill",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "kill the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "fight them",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "fight",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "explode",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "eliminate",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "punch",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "blow it up",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "escape",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "run away from",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "runaway",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "flee",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "flee from",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "lighspeed",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "hyperspace",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "continue on",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "abort",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "bribe them",
+            "intent": "agent.bribe"
+          },
+          {
+            "domain": "default",
+            "utterance": "investigate",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "check out",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "look at",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "study",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "go to",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "see what",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "find",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to find",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "trick",
+            "intent": "agent.trick"
+          },
+          {
+            "domain": "default",
+            "utterance": "repair ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "rebuild ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "buy ship parts",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "fix",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "fix the ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "clean",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "peace",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "befriend them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "befriend",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate a deal",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate peace",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "make peace with",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "calm",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to calm",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "calm them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "invite them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hi",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hello",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "howdy",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove",
+            "intent": "agent.remove"
+          },
+          {
+            "domain": "default",
+            "utterance": "go on foot",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send the cew",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "foot",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "ground",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send a team",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send a crew",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "land",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "collect",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "retrieve",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "mine",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "defense",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "defensively",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "shields",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "put up the shields",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "dodge",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "evade",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "maneuver",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "go around it",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "around",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "move",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "carefully",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "careful",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "slowly",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "slow",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "communicate",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to communicaate",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "talk",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "talk to",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "nothing",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "wait",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "do nothing",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "buy fuel",
+            "intent": "agent.buyFuel"
+          },
+          {
+            "domain": "default",
+            "utterance": "fuel",
+            "intent": "agent.buyFuel"
+          },
+          {
+            "domain": "default",
+            "utterance": "eat",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "consume",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "taste",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "capture",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "cage",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "pet",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "error",
+            "intent": "agent.error"
+          },
+          {
+            "domain": "default",
+            "utterance": "attack the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "destroy the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "attack",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "destroy",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "kill",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "kill the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "fight them",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "fight",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "explode",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "eliminate",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "punch",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "blow it up",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "escape",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "run away from",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "runaway",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "flee",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "flee from",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "lighspeed",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "hyperspace",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "continue on",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "abort",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "bribe them",
+            "intent": "agent.bribe"
+          },
+          {
+            "domain": "default",
+            "utterance": "investigate",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "check out",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "look at",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "study",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "go to",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "see what",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "find",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to find",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "trick",
+            "intent": "agent.trick"
+          },
+          {
+            "domain": "default",
+            "utterance": "repair ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "rebuild ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "buy ship parts",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "fix",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "fix the ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "clean",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "peace",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "befriend them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "befriend",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate a deal",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate peace",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "make peace with",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "calm",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to calm",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "calm them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "invite them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hi",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hello",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "howdy",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove",
+            "intent": "agent.remove"
+          },
+          {
+            "domain": "default",
+            "utterance": "go on foot",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send the cew",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "foot",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "ground",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send a team",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send a crew",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "land",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "collect",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "retrieve",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "mine",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "defense",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "defensively",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "shields",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "put up the shields",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "dodge",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "evade",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "maneuver",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "go around it",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "around",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "move",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "carefully",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "careful",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "slowly",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "slow",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "communicate",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to communicaate",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "talk",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "talk to",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "nothing",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "wait",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "do nothing",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "buy fuel",
+            "intent": "agent.buyFuel"
+          },
+          {
+            "domain": "default",
+            "utterance": "fuel",
+            "intent": "agent.buyFuel"
+          },
+          {
+            "domain": "default",
+            "utterance": "eat",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "consume",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "taste",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "capture",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "cage",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "pet",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "error",
+            "intent": "agent.error"
+          },
+          {
+            "domain": "default",
+            "utterance": "attack the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "destroy the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "attack",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "destroy",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "kill",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "kill the",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "fight them",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "fight",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "explode",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "eliminate",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "punch",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "blow it up",
+            "intent": "agent.attack"
+          },
+          {
+            "domain": "default",
+            "utterance": "escape",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "run away from",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "runaway",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "flee",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "flee from",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "lighspeed",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "hyperspace",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "continue on",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "abort",
+            "intent": "agent.escape"
+          },
+          {
+            "domain": "default",
+            "utterance": "bribe them",
+            "intent": "agent.bribe"
+          },
+          {
+            "domain": "default",
+            "utterance": "investigate",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "check out",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "look at",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "study",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "go to",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "see what",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "find",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to find",
+            "intent": "agent.investigate"
+          },
+          {
+            "domain": "default",
+            "utterance": "trick",
+            "intent": "agent.trick"
+          },
+          {
+            "domain": "default",
+            "utterance": "repair ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "rebuild ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "buy ship parts",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "fix",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "fix the ship",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "clean",
+            "intent": "agent.repair"
+          },
+          {
+            "domain": "default",
+            "utterance": "peace",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "befriend them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "befriend",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate a deal",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "negotiate peace",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "make peace with",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "calm",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to calm",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "calm them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "invite them",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hi",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hello",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "howdy",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey",
+            "intent": "agent.peace"
+          },
+          {
+            "domain": "default",
+            "utterance": "remove",
+            "intent": "agent.remove"
+          },
+          {
+            "domain": "default",
+            "utterance": "go on foot",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send the cew",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "foot",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "ground",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send a team",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "send a crew",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "land",
+            "intent": "agent.foot"
+          },
+          {
+            "domain": "default",
+            "utterance": "collect",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "retrieve",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "mine",
+            "intent": "agent.collect"
+          },
+          {
+            "domain": "default",
+            "utterance": "defense",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "defensively",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "shields",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "put up the shields",
+            "intent": "agent.defense"
+          },
+          {
+            "domain": "default",
+            "utterance": "dodge",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "evade",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "maneuver",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "go around it",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "around",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "move",
+            "intent": "agent.dodge"
+          },
+          {
+            "domain": "default",
+            "utterance": "carefully",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "careful",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "slowly",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "slow",
+            "intent": "agent.careful"
+          },
+          {
+            "domain": "default",
+            "utterance": "communicate",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "try to communicaate",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "talk",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "talk to",
+            "intent": "agent.communicate"
+          },
+          {
+            "domain": "default",
+            "utterance": "nothing",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "wait",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "do nothing",
+            "intent": "agent.nothing"
+          },
+          {
+            "domain": "default",
+            "utterance": "buy fuel",
+            "intent": "agent.buyFuel"
+          },
+          {
+            "domain": "default",
+            "utterance": "fuel",
+            "intent": "agent.buyFuel"
+          },
+          {
+            "domain": "default",
+            "utterance": "eat",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "consume",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "taste",
+            "intent": "agent.eat"
+          },
+          {
+            "domain": "default",
+            "utterance": "capture",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "cage",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "pet",
+            "intent": "agent.capture"
+          },
+          {
+            "domain": "default",
+            "utterance": "error",
+            "intent": "agent.error"
           }
         ],
         "domains": {
@@ -19927,18 +22747,18 @@
               ],
               "perceptrons": [
                 [
-                  12.907495498657227,
-                  -2.646000325512432e-7,
-                  12.907495498657227,
-                  12.90749454498291,
-                  12.907486915588379,
-                  0.000007998496585059911,
                   12.90749740600586,
+                  -2.3137620530633285e-7,
                   12.90749740600586,
-                  12.90749740600586,
-                  6.097837924957275,
-                  3.902468681335449,
-                  2.9071874618530273,
+                  12.907496452331543,
+                  12.907488822937012,
+                  0.000008029081072891131,
+                  12.907499313354492,
+                  12.907499313354492,
+                  12.907499313354492,
+                  6.097839832305908,
+                  3.9024658203125,
+                  2.9071905612945557,
                   -2.1054375171661377,
                   -0.9623733162879944,
                   -0.9623733162879944,
@@ -19957,7 +22777,7 @@
                   -1.115344762802124,
                   -1.115344762802124,
                   -1.7278895378112793,
-                  -2.972656726837158,
+                  -2.9726619720458984,
                   -1.1440695524215698,
                   -1.0718165636062622,
                   -1.0718165636062622,
@@ -19993,58 +22813,58 @@
                   -0.01523768063634634,
                   -1.3988492488861084,
                   -1.3931118249893188,
-                  -1.3880177736282349,
-                  -1.3842462301254272,
+                  -1.388020396232605,
+                  -1.3842583894729614,
                   -1.4330650568008423,
                   -3.2880301475524902,
                   -3.1756372451782227,
-                  -1.3783282041549683,
-                  -1.3782209157943726,
-                  -1.3782209157943726,
-                  -2.3085925579071045,
-                  -1.3782209157943726,
-                  -1.3828109502792358,
-                  -1.378220796585083,
-                  -1.378220796585083,
-                  -1.378220796585083,
+                  -1.3783315420150757,
+                  -1.3782188892364502,
+                  -1.3782188892364502,
+                  -2.3085978031158447,
+                  -1.3782187700271606,
+                  -1.3828150033950806,
+                  -1.3782187700271606,
+                  -1.3782187700271606,
+                  -1.3782188892364502,
                   0,
-                  -1.378220796585083,
-                  -1.378220796585083,
-                  -1.3782206773757935,
+                  -1.3782187700271606,
+                  -1.3782187700271606,
+                  -1.3782187700271606,
                   -0.2932625710964203,
-                  -1.3782206773757935,
-                  -1.3782206773757935,
-                  -1.378220558166504,
-                  -1.378220558166504,
-                  -1.378220558166504,
-                  -1.378220558166504,
-                  -1.3782204389572144,
-                  -1.3782204389572144,
-                  1.378219401590632
+                  -1.3782187700271606,
+                  -1.378218650817871,
+                  -1.378218650817871,
+                  -1.378218650817871,
+                  -1.378218650817871,
+                  -1.3782185316085815,
+                  -1.3782185316085815,
+                  -1.3782185316085815,
+                  1.3782174596998933
                 ],
                 [
-                  -1.475988507270813,
+                  -1.4759881496429443,
                   -0.6737260222434998,
-                  -1.475988507270813,
-                  -1.475988507270813,
-                  -1.475988507270813,
+                  -1.4759881496429443,
+                  -1.4759881496429443,
+                  -1.4759881496429443,
                   -1.8365825414657593,
-                  -1.475988507270813,
-                  -1.4759883880615234,
-                  -1.4759883880615234,
-                  -0.4456457793712616,
-                  -0.4738037884235382,
-                  -0.5565392374992371,
+                  -1.4759881496429443,
+                  -1.4759881496429443,
+                  -1.4759880304336548,
+                  -0.4456457495689392,
+                  -0.4738037586212158,
+                  -0.5565389394760132,
                   12.809730529785156,
                   6.4048566818237305,
                   6.4048566818237305,
-                  0.000011712315426848363,
-                  12.80972957611084,
+                  0.000012038773093081545,
+                  12.809730529785156,
                   12.809718132019043,
-                  12.809728622436523,
                   12.80972957611084,
-                  7.730647087097168,
-                  5.079079627990723,
+                  12.80972957611084,
+                  7.730648994445801,
+                  5.079078197479248,
                   12.80972957611084,
                   -0.9911550879478455,
                   -1.9243221282958984,
@@ -20053,7 +22873,7 @@
                   -1.2201634645462036,
                   -1.2201634645462036,
                   -1.8509438037872314,
-                  -3.444401979446411,
+                  -3.4444010257720947,
                   -1.2801768779754639,
                   -1.1718980073928833,
                   -1.1718980073928833,
@@ -20081,42 +22901,42 @@
                   -1.5716845989227295,
                   -1.5556049346923828,
                   -1.5384888648986816,
-                  -3.110666275024414,
+                  -3.1106653213500977,
                   -0.7691324353218079,
                   -0.33607247471809387,
                   -1.497168779373169,
                   -0.2241751104593277,
                   -0.19659161567687988,
                   -1.4853217601776123,
-                  -1.4761695861816406,
-                  -1.4759889841079712,
-                  -1.4759889841079712,
+                  -1.4761689901351929,
+                  -1.475988745689392,
+                  -1.475988745689392,
                   -1.5412788391113281,
-                  -1.4759889841079712,
+                  -1.475988745689392,
                   -0.09960081428289413,
-                  -1.4759889841079712,
-                  -1.4759889841079712,
-                  -1.4759889841079712,
-                  -1.4759889841079712,
-                  -1.4759889841079712,
-                  -1.4759888648986816,
-                  -1.4759888648986816,
-                  -1.4759888648986816,
-                  -1.4759888648986816,
-                  0,
-                  -1.4759888648986816,
-                  -1.475988745689392,
-                  -1.475988745689392,
-                  -0.31612807512283325,
-                  -1.475988745689392,
-                  -1.475988745689392,
                   -1.4759886264801025,
                   -1.4759886264801025,
                   -1.4759886264801025,
+                  -1.475988745689392,
+                  -1.4759886264801025,
+                  -1.475988507270813,
                   -1.4759886264801025,
                   -1.4759886264801025,
                   -1.475988507270813,
-                  1.4759867024399729
+                  0,
+                  -1.475988507270813,
+                  -1.475988507270813,
+                  -1.475988507270813,
+                  -0.31612807512283325,
+                  -1.4759883880615234,
+                  -1.4759883880615234,
+                  -1.4759883880615234,
+                  -1.4759883880615234,
+                  -1.4759882688522339,
+                  -1.4759882688522339,
+                  -1.4759882688522339,
+                  -1.4759882688522339,
+                  1.4759863678290006
                 ],
                 [
                   -0.007532019633799791,
@@ -20125,23 +22945,23 @@
                   -0.0073899393901228905,
                   -2.3924219608306885,
                   2.3894567489624023,
-                  -0.002967384411022067,
-                  -0.002966582542285323,
-                  -0.0029664807952940464,
-                  -0.000023477708964492194,
-                  -0.0006786970770917833,
-                  -0.002416920615360141,
-                  -0.0029664807952940464,
-                  -0.0008421555394306779,
-                  -0.0008421555394306779,
-                  -0.0013042722130194306,
-                  -0.0029664807952940464,
+                  -0.0029674305114895105,
+                  -0.0029666288755834103,
                   -0.0029664805624634027,
+                  -0.000023353288270300254,
+                  -0.0006785726291127503,
+                  -0.0024167962837964296,
                   -0.0029664805624634027,
-                  -0.0029664805624634027,
-                  -1.1318405057636483e-7,
-                  -0.004227619152516127,
-                  -0.0029664805624634027,
+                  -0.0008417460485361516,
+                  -0.0008417460485361516,
+                  -0.001303494325838983,
+                  -0.002966480329632759,
+                  -0.002966480329632759,
+                  -0.002966480329632759,
+                  -0.002966480329632759,
+                  -1.1899808072257656e-7,
+                  -0.004227625206112862,
+                  -0.0029664800968021154,
                   11.893287658691406,
                   -0.1714056134223938,
                   -0.12692201137542725,
@@ -20212,45 +23032,45 @@
                   -0.007760333828628063,
                   -0.007699227891862392,
                   -0.0076161096803843975,
-                  0.002966536012515654
+                  0.0029665359236241843
                 ],
                 [
-                  -0.8282136917114258,
+                  -0.828213095664978,
                   -0.6900202035903931,
-                  -0.8282136917114258,
-                  -0.8282136917114258,
-                  -0.828213632106781,
+                  -0.828213095664978,
+                  -0.8282130360603333,
+                  -0.8282130360603333,
                   -1.3366453647613525,
-                  -0.828213632106781,
-                  -0.828213632106781,
-                  -0.8282135725021362,
+                  -0.8282129764556885,
+                  -0.8282129764556885,
+                  -0.8282129764556885,
                   -0.0016911557177081704,
-                  -4.3784027099609375,
+                  -4.378403186798096,
                   -0.10783317685127258,
-                  -0.8282135725021362,
-                  -0.24798621237277985,
-                  -0.24798621237277985,
-                  -0.33224135637283325,
-                  -0.8282135725021362,
-                  -0.8282135128974915,
-                  -0.8282135128974915,
-                  -0.8282134532928467,
+                  -0.8282129168510437,
+                  -0.2479860484600067,
+                  -0.2479860484600067,
+                  -0.3322410583496094,
+                  -0.8282129168510437,
+                  -0.8282129168510437,
+                  -0.8282129168510437,
+                  -0.8282128572463989,
                   -0.0004281400179024786,
-                  -4.265271186828613,
-                  -0.8282134532928467,
+                  -4.2652716636657715,
+                  -0.8282128572463989,
                   0,
                   13.45750617980957,
                   6.7287516593933105,
                   6.7287516593933105,
-                  6.7287516593933105,
-                  6.7287516593933105,
-                  13.45750617980957,
+                  6.728752136230469,
+                  6.728752136230469,
+                  13.457507133483887,
                   8.115620613098145,
-                  5.341876983642578,
-                  6.728751182556152,
-                  6.728751182556152,
-                  13.45749282836914,
-                  -5.341865062713623,
+                  5.341877460479736,
+                  6.7287516593933105,
+                  6.7287516593933105,
+                  13.457493782043457,
+                  -5.3418660163879395,
                   -1.5708321332931519,
                   -0.6458616852760315,
                   -2.084458112716675,
@@ -20273,7 +23093,7 @@
                   -1.237161636352539,
                   -1.213025689125061,
                   -1.1890913248062134,
-                  -4.67855978012085,
+                  -4.678559303283691,
                   -0.6935194134712219,
                   -0.2859690189361572,
                   -1.109164834022522,
@@ -20289,65 +23109,65 @@
                   -0.9991040825843811,
                   -0.9868534803390503,
                   -0.9729611277580261,
-                  -4.565428256988525,
+                  -4.565427780151367,
                   -0.91196608543396,
                   -1.0180081129074097,
                   -0.8932350873947144,
                   -0.8844283819198608,
                   -0.8759798407554626,
                   -3.022879123687744,
-                  -6.174164772033691,
-                  -0.8282140493392944,
-                  -0.8282139897346497,
+                  -6.174166679382324,
+                  -0.8282133936882019,
+                  -0.8282133936882019,
                   -0.2162054479122162,
-                  -0.8282139897346497,
-                  -0.8282139301300049,
-                  -0.8282139301300049,
-                  -0.8282138705253601,
-                  -0.8282138705253601,
-                  -0.8282138109207153,
-                  -0.8282138109207153,
-                  -0.8282137513160706,
-                  0.8282119247502021
+                  -0.8282133936882019,
+                  -0.8282133340835571,
+                  -0.8282133340835571,
+                  -0.8282132744789124,
+                  -0.8282132148742676,
+                  -0.8282132148742676,
+                  -0.8282131552696228,
+                  -0.8282131552696228,
+                  0.8282114543655791
                 ],
                 [
-                  -0.20298579335212708,
+                  -0.2029861956834793,
                   -0.13081952929496765,
                   -0.20273727178573608,
-                  -0.2025408297777176,
-                  -0.20239371061325073,
+                  -0.2025405615568161,
+                  -0.2023933082818985,
                   -0.25551947951316833,
-                  -0.2022911012172699,
-                  -0.20222359895706177,
-                  -0.20218239724636078,
-                  -0.04896434769034386,
-                  -0.08326610922813416,
-                  -0.0707283690571785,
-                  -0.20215897262096405,
-                  -0.06033147871494293,
-                  -0.06033147871494293,
-                  -0.08195802569389343,
-                  -0.20214876532554626,
-                  -0.20214782655239105,
-                  -0.20214781165122986,
-                  -0.20214781165122986,
-                  -0.06410939246416092,
-                  -0.13804183900356293,
-                  -0.20214781165122986,
+                  -0.2022905945777893,
+                  -0.2022230476140976,
+                  -0.2021818906068802,
+                  -0.048964567482471466,
+                  -0.08326634019613266,
+                  -0.070728600025177,
+                  -0.20215849578380585,
+                  -0.06033151596784592,
+                  -0.06033151596784592,
+                  -0.08195804804563522,
+                  -0.20214830338954926,
+                  -0.20214687287807465,
+                  -0.20214685797691345,
+                  -0.20214685797691345,
+                  -0.06410914659500122,
+                  -0.13804155588150024,
+                  -0.20214685797691345,
                   0,
-                  -0.20214781165122986,
-                  -0.10107392072677612,
-                  -0.10107392072677612,
-                  -0.10107392072677612,
-                  -0.10107392072677612,
-                  -0.20214779675006866,
+                  -0.20214685797691345,
+                  -0.10107344388961792,
+                  -0.10107344388961792,
+                  -0.10107344388961792,
+                  -0.10107344388961792,
+                  -0.20214684307575226,
                   -0.10583752393722534,
                   -0.11492330580949783,
-                  -0.10107392072677612,
-                  -0.10107392072677612,
-                  -0.20214779675006866,
+                  -0.10107344388961792,
+                  -0.10107344388961792,
+                  -0.20214684307575226,
                   -0.09430262446403503,
-                  14.083565711975098,
+                  14.083566665649414,
                   -0.11271321028470993,
                   -0.36160486936569214,
                   -0.10755815356969833,
@@ -20397,60 +23217,60 @@
                   -0.20890340209007263,
                   -0.05538082867860794,
                   -0.20838049054145813,
-                  -0.20691107213497162,
-                  -0.20610064268112183,
-                  -0.20537187159061432,
-                  -0.20472854375839233,
-                  -0.20416854321956635,
-                  -0.2036866843700409,
-                  -0.20330503582954407,
-                  0.2021479027717222
+                  -0.20691129565238953,
+                  -0.20610162615776062,
+                  -0.20537352561950684,
+                  -0.20473049581050873,
+                  -0.20417030155658722,
+                  -0.20368808507919312,
+                  -0.20330582559108734,
+                  0.20214694916051687
                 ],
                 [
-                  -0.6497907042503357,
-                  -8.12752628326416,
-                  -0.6497907042503357,
-                  -0.6497906446456909,
-                  -0.6497906446456909,
+                  -0.6497910618782043,
+                  -8.127524375915527,
+                  -0.6497910022735596,
+                  -0.6497910022735596,
+                  -0.6497910022735596,
                   -0.9043417572975159,
-                  -0.6497906446456909,
-                  -0.6497905850410461,
-                  -0.6497905850410461,
-                  -0.07784830778837204,
-                  -0.19675594568252563,
-                  -0.375186562538147,
-                  -0.6497905850410461,
-                  -0.1968710720539093,
-                  -0.1968710720539093,
-                  -0.25604861974716187,
-                  -0.6497905850410461,
-                  -0.6497905254364014,
-                  -0.6497905254364014,
-                  -0.6497905254364014,
-                  -0.188360333442688,
-                  -0.4614303410053253,
-                  -0.6497904658317566,
+                  -0.6497910022735596,
+                  -0.6497910022735596,
+                  -0.6497909426689148,
+                  -0.07784851640462875,
+                  -0.19675615429878235,
+                  -0.3751865029335022,
+                  -0.6497909426689148,
+                  -0.19687113165855408,
+                  -0.19687113165855408,
+                  -0.25604888796806335,
+                  -0.6497909426689148,
+                  -0.64979088306427,
+                  -0.64979088306427,
+                  -0.64979088306427,
+                  -0.18836043775081635,
+                  -0.4614306092262268,
+                  -0.6497908234596252,
                   0,
-                  -0.6497904658317566,
-                  -0.32489529252052307,
-                  -0.32489529252052307,
-                  -0.32489529252052307,
-                  -0.32489529252052307,
-                  -0.6497904062271118,
+                  -0.6497908234596252,
+                  -0.3248954713344574,
+                  -0.3248954713344574,
+                  -0.3248954713344574,
+                  -0.3248954713344574,
+                  -0.6497908234596252,
                   -0.37484249472618103,
                   -0.36182641983032227,
-                  -0.3248952627182007,
-                  -0.3248952627182007,
-                  -0.6497904062271118,
+                  -0.3248954713344574,
+                  -0.3248954713344574,
+                  -0.6497907638549805,
                   -0.27758148312568665,
-                  -0.649790346622467,
-                  5.508379936218262,
-                  8.127541542053223,
-                  5.508379936218262,
-                  1.637599229812622,
-                  3.870781660079956,
+                  -0.6497907638549805,
+                  5.508381366729736,
+                  8.12753963470459,
+                  5.508380889892578,
+                  1.637598991394043,
+                  3.8707833290100098,
                   13.635912895202637,
-                  13.6359281539917,
+                  13.635927200317383,
                   -1.0324417352676392,
                   -0.9500443339347839,
                   -1.211798071861267,
@@ -20468,135 +23288,135 @@
                   -0.7065906524658203,
                   -0.6481953263282776,
                   -0.40088266134262085,
-                  -0.6497911810874939,
+                  -0.6497915387153625,
                   -0.10610806196928024,
                   -0.07985995709896088,
-                  -0.6497911810874939,
-                  -0.6497911810874939,
-                  -0.6497911810874939,
-                  -0.6497911214828491,
+                  -0.6497915387153625,
+                  -0.6497915387153625,
+                  -0.6497914791107178,
+                  -0.6497914791107178,
                   -0.67437744140625,
                   -0.6508835554122925,
                   -0.25310784578323364,
-                  -0.6497911214828491,
-                  -0.6497911214828491,
-                  -0.6497910618782043,
-                  -0.6497910618782043,
-                  -0.6497910618782043,
-                  -0.6497910022735596,
-                  -0.6497910022735596,
-                  -0.6497910022735596,
-                  -0.6497910022735596,
+                  -0.6497914791107178,
+                  -0.6497914791107178,
+                  -0.649791419506073,
+                  -0.649791419506073,
+                  -0.649791419506073,
+                  -0.649791419506073,
+                  -0.6497913599014282,
+                  -0.6497913599014282,
+                  -0.6497913599014282,
                   -0.023795831948518753,
-                  -0.6497910022735596,
-                  -0.6497909426689148,
-                  -0.6497909426689148,
+                  -0.6497913002967834,
+                  -0.6497913002967834,
+                  -0.6497913002967834,
                   -0.14778795838356018,
                   -2.287389039993286,
-                  -0.6497907638549805,
-                  -0.6497907638549805,
-                  -0.6497907638549805,
-                  -0.6497907042503357,
-                  -0.6497907042503357,
-                  -0.6497907042503357,
-                  -0.6497907042503357,
-                  0.6497908110352505
+                  -0.6497911214828491,
+                  -0.6497911214828491,
+                  -0.6497911214828491,
+                  -0.6497911214828491,
+                  -0.6497911214828491,
+                  -0.6497910618782043,
+                  -0.6497910618782043,
+                  0.649791199096861
                 ],
                 [
-                  -7.974407196044922,
-                  -1.8010495901107788,
-                  -7.972745895385742,
-                  -7.971084117889404,
-                  -7.969422340393066,
-                  -0.1456955373287201,
-                  -7.967759132385254,
-                  -7.9660964012146,
-                  -7.964432239532471,
-                  -2.3755462169647217,
-                  -2.812194347381592,
-                  -2.8021740913391113,
-                  -7.962216377258301,
-                  -2.5980851650238037,
-                  -2.5980851650238037,
-                  -2.791536808013916,
-                  -7.959998607635498,
-                  -7.958333492279053,
-                  -7.956667900085449,
-                  -7.9550018310546875,
-                  -3.4806530475616455,
-                  -4.4930949211120605,
-                  -7.952504634857178,
-                  -7.804202556610107,
-                  -7.949131011962891,
-                  -3.983947515487671,
-                  -3.983947515487671,
-                  -3.9835331439971924,
-                  -3.9835331439971924,
-                  -7.945799350738525,
-                  -5.399001598358154,
-                  -2.558403968811035,
-                  -3.9817259311676025,
-                  -3.9817259311676025,
-                  -7.942172527313232,
-                  2.3886144161224365,
-                  -7.940502643585205,
-                  -2.361081838607788,
-                  -5.606935501098633,
-                  -2.3597917556762695,
-                  -1.4798980951309204,
-                  -0.8843638896942139,
-                  -7.937643527984619,
-                  -7.935972690582275,
-                  3.694801092147827,
-                  6.296948432922363,
-                  4.868588924407959,
-                  -1.2203128337860107,
-                  2.4857587814331055,
-                  1.2455106973648071,
-                  1.2455106973648071,
-                  6.332569599151611,
-                  6.394942283630371,
-                  6.2508625984191895,
-                  6.25250768661499,
-                  6.254153251647949,
-                  6.255799293518066,
-                  -8.028268814086914,
-                  -8.026260375976562,
-                  -4.981928825378418,
-                  -1.2750482559204102,
-                  -8.024612426757812,
-                  -1.8534226417541504,
-                  -1.8522075414657593,
-                  -8.022408485412598,
-                  -8.020760536193848,
-                  -8.019110679626465,
-                  -8.017461776733398,
-                  -8.034743309020996,
-                  -8.014166831970215,
+                  -8.009920120239258,
+                  -1.8088051080703735,
+                  -8.008261680603027,
+                  -8.00660228729248,
+                  -8.004942893981934,
+                  -0.14487521350383759,
+                  -8.00328254699707,
+                  -8.001622200012207,
+                  -7.999961853027344,
+                  -2.387340784072876,
+                  -2.8239893913269043,
+                  -2.8139686584472656,
+                  -7.997748851776123,
+                  -2.6098809242248535,
+                  -2.6098809242248535,
+                  -2.803332567214966,
+                  -7.995534896850586,
+                  -7.99387264251709,
+                  -7.9922099113464355,
+                  -7.990546226501465,
+                  -3.498363494873047,
+                  -4.510820388793945,
+                  -7.988053321838379,
+                  -7.840578079223633,
+                  -7.984684944152832,
+                  -4.001669883728027,
+                  -4.001669883728027,
+                  -4.001255989074707,
+                  -4.001255989074707,
+                  -7.981359004974365,
+                  -5.422985553741455,
+                  -2.5699098110198975,
+                  -3.9994518756866455,
+                  -3.9994518756866455,
+                  -7.9777374267578125,
+                  2.4010872840881348,
+                  -7.976070404052734,
+                  -2.371206283569336,
+                  -5.6322221755981445,
+                  -2.36991810798645,
+                  -1.484945297241211,
+                  -0.8894133567810059,
+                  -7.973216533660889,
+                  -7.971547603607178,
+                  3.6737239360809326,
+                  6.261240482330322,
+                  4.840543270111084,
+                  -1.2298239469528198,
+                  2.4882397651672363,
+                  1.2384551763534546,
+                  1.2384551763534546,
+                  6.296698093414307,
+                  6.358705043792725,
+                  6.215445518493652,
+                  6.217087745666504,
+                  6.218730926513672,
+                  6.220374584197998,
+                  -8.063695907592773,
+                  -8.061691284179688,
+                  -5.001676559448242,
+                  -1.2828038930892944,
+                  -8.060046195983887,
+                  -1.859418511390686,
+                  -1.8582051992416382,
+                  -8.057845115661621,
+                  -8.05620002746582,
+                  -8.054553031921387,
+                  -8.05290699005127,
+                  -8.070082664489746,
+                  -8.049616813659668,
                   -0.3463422954082489,
-                  -8.012516021728516,
-                  -8.010865211486816,
-                  -8.0092134475708,
-                  -8.007561683654785,
-                  -8.005908966064453,
-                  -8.023221015930176,
-                  -8.002607345581055,
-                  -8.000953674316406,
-                  -7.9992995262146,
-                  -7.828548908233643,
-                  -7.995944976806641,
-                  -7.994289875030518,
-                  -7.992633819580078,
+                  -8.047967910766602,
+                  -8.046319961547852,
+                  -8.044670104980469,
+                  -8.043022155761719,
+                  -8.04137134552002,
+                  -8.058579444885254,
+                  -8.03807544708252,
+                  -8.03642463684082,
+                  -8.034772872924805,
+                  -7.86499547958374,
+                  -8.031424522399902,
+                  -8.029770851135254,
+                  -8.028118133544922,
                   -0.5156854391098022,
-                  -7.9909772872924805,
-                  -7.989320278167725,
-                  -7.9876627922058105,
-                  -7.9860053062438965,
-                  -7.984347343444824,
-                  -7.982688903808594,
-                  -7.981029510498047,
-                  -7.9793701171875,
-                  8.014962985285814
+                  -8.026463508605957,
+                  -8.024809837341309,
+                  -8.023155212402344,
+                  -8.021500587463379,
+                  -8.019845008850098,
+                  -8.0181884765625,
+                  -8.016532897949219,
+                  -8.014875411987305,
+                  8.050255407443181
                 ],
                 [
                   -0.21248045563697815,
@@ -20604,54 +23424,54 @@
                   -0.21130456030368805,
                   -0.21011178195476532,
                   -0.21049663424491882,
-                  -0.15922755002975464,
-                  -0.2083667516708374,
-                  -0.20758022367954254,
-                  -0.20687375962734222,
+                  -0.15922722220420837,
+                  -0.20836703479290009,
+                  -0.20758125185966492,
+                  -0.20687545835971832,
                   -0.03858860209584236,
                   -0.09156277775764465,
                   -0.08659850060939789,
-                  -0.2061866968870163,
+                  -0.20618875324726105,
                   -0.06215612590312958,
                   -0.06215612590312958,
                   -0.09061998873949051,
-                  -0.20560425519943237,
-                  -0.20540305972099304,
-                  -0.20479613542556763,
-                  -0.20448535680770874,
+                  -0.2056058645248413,
+                  -0.20540443062782288,
+                  -0.20479707419872284,
+                  -0.20448584854602814,
                   -0.04549969360232353,
                   -0.16274023056030273,
-                  -0.2042071521282196,
+                  -0.20420725643634796,
                   -0.06285008788108826,
-                  -0.2040068507194519,
-                  -0.10316333919763565,
-                  -0.10316333919763565,
-                  -0.1031307801604271,
-                  -0.1031307801604271,
-                  -0.20382684469223022,
+                  -0.20400665700435638,
+                  -0.10316325724124908,
+                  -0.10316325724124908,
+                  -0.10313080251216888,
+                  -0.10313080251216888,
+                  -0.20382647216320038,
                   -0.1661175638437271,
                   -0.12976136803627014,
-                  -0.10276303440332413,
-                  -0.10276303440332413,
-                  -0.20373310148715973,
+                  -0.10276336967945099,
+                  -0.10276336967945099,
+                  -0.20373256504535675,
                   -0.07741054147481918,
-                  -0.20368589460849762,
-                  -0.06733166426420212,
-                  -0.13765156269073486,
-                  -0.0668516457080841,
+                  -0.20368531346321106,
+                  -0.06733153760433197,
+                  -0.1376516968011856,
+                  -0.06685188412666321,
                   -0.08359119296073914,
                   -0.002775295404717326,
-                  -0.20365691184997559,
-                  -0.20364592969417572,
+                  -0.20365622639656067,
+                  -0.20364515483379364,
                   -0.2036432921886444,
                   -0.2036432921886444,
-                  -0.20367057621479034,
+                  -0.2036699503660202,
                   -0.15444807708263397,
                   0,
                   -0.023801319301128387,
                   -0.023801319301128387,
                   -0.2036432921886444,
-                  -0.04442065209150314,
+                  -0.0444202646613121,
                   -0.2036432921886444,
                   -0.20364327728748322,
                   -0.20364327728748322,
@@ -20692,74 +23512,74 @@
                   -0.21653664112091064,
                   -0.2150058001279831,
                   -0.21357983350753784,
-                  0.20364337878332453
+                  0.20364337883218345
                 ],
                 [
                   -1.1618434190750122,
-                  0.3583827018737793,
+                  0.35838279128074646,
                   -1.1488540172576904,
                   -1.1323295831680298,
                   -0.6775507926940918,
-                  -0.5246219635009766,
+                  -0.5246216654777527,
                   -0.6662864685058594,
                   -0.663608193397522,
-                  -0.6612467169761658,
+                  -0.6612474322319031,
                   -0.008725983090698719,
                   -1.1271405220031738,
                   -0.6298917531967163,
-                  -0.6595069169998169,
+                  -0.6595116853713989,
                   -0.19919775426387787,
                   -0.19919775426387787,
                   -0.3007386326789856,
-                  -0.6583632826805115,
-                  -0.6583632826805115,
-                  -0.6583632826805115,
-                  -0.6583632826805115,
+                  -0.6583627462387085,
+                  -0.6583628058433533,
+                  -0.6583627462387085,
+                  -0.6583627462387085,
                   -2.027251720428467,
-                  0.15674325823783875,
-                  -0.6583632230758667,
+                  0.156743124127388,
+                  -0.6583626866340637,
                   -0.19914832711219788,
-                  -0.6583632230758667,
-                  -0.3291816711425781,
-                  -0.3291816711425781,
-                  -0.3291816711425781,
-                  -0.3291816711425781,
-                  -0.6583632230758667,
-                  -0.15673477947711945,
+                  -0.6583626866340637,
+                  -0.32918140292167664,
+                  -0.32918140292167664,
+                  -0.32918140292167664,
+                  -0.32918140292167664,
+                  -0.658362627029419,
+                  -0.15673498809337616,
                   -1.7007371187210083,
-                  -0.32918164134025574,
-                  -0.32918164134025574,
-                  -0.6583631634712219,
+                  -0.32918140292167664,
+                  -0.32918140292167664,
+                  -0.658362627029419,
                   -0.2500610649585724,
-                  -0.6583631634712219,
-                  -0.07308045029640198,
-                  -0.5852828621864319,
-                  -0.07308043539524078,
+                  -0.658362627029419,
+                  -0.07308026403188705,
+                  -0.5852825045585632,
+                  -0.07308025658130646,
                   -0.3132023513317108,
                   -0.0047409264370799065,
-                  -0.6583631038665771,
-                  -0.6583631038665771,
-                  -0.6583630442619324,
-                  -0.6583630442619324,
+                  -0.6583625674247742,
+                  -0.6583625674247742,
+                  -0.6583625078201294,
+                  -0.6583625078201294,
                   -1.6713333129882812,
-                  2.668612003326416,
+                  2.668612480163574,
                   -1.6556414365768433,
                   -0.08399323374032974,
                   -0.08399323374032974,
-                  -0.6583629846572876,
-                  -0.13374122977256775,
-                  -0.6583629846572876,
-                  -0.6583629846572876,
-                  -0.6583629846572876,
-                  -0.6583629250526428,
-                  -0.6583629250526428,
-                  13.62734317779541,
+                  -0.6583624482154846,
+                  -0.13374097645282745,
+                  -0.6583624482154846,
+                  -0.6583624482154846,
+                  -0.6583624482154846,
+                  -0.6583623886108398,
+                  -0.6583623886108398,
+                  13.627344131469727,
                   8.796614646911621,
-                  4.472354412078857,
+                  4.472354888916016,
                   13.627355575561523,
+                  2.1621248722076416,
                   2.1621246337890625,
-                  2.1621246337890625,
-                  13.627355575561523,
+                  13.62735652923584,
                   -1.0130325555801392,
                   -0.9860700368881226,
                   -0.9695904850959778,
@@ -20788,7 +23608,7 @@
                   -0.6988407969474792,
                   -0.6926836371421814,
                   -0.6875628232955933,
-                  0.658362696438839
+                  0.6583620810261547
                 ],
                 [
                   -0.6713162660598755,
@@ -20796,7 +23616,7 @@
                   -0.6658205986022949,
                   -0.6591472029685974,
                   -0.6622686386108398,
-                  -0.49952831864356995,
+                  -0.4995284676551819,
                   -0.6501648426055908,
                   -0.646274209022522,
                   -0.6430017352104187,
@@ -20807,58 +23627,58 @@
                   -0.1946604996919632,
                   -0.1946604996919632,
                   -0.2942182123661041,
-                  -0.6363524794578552,
-                  -0.6360753178596497,
-                  -0.6316824555397034,
-                  -0.6296142339706421,
+                  -0.6363525390625,
+                  -0.6360753774642944,
+                  -0.6316854953765869,
+                  -0.6296192407608032,
                   -0.32644757628440857,
                   -0.32644757628440857,
-                  -0.6272784471511841,
+                  -0.6272847056388855,
                   -0.19466634094715118,
-                  -0.6255987286567688,
+                  -0.625603437423706,
                   -0.32152479887008667,
                   -0.32152479887008667,
                   -0.3211190104484558,
                   -0.3211190104484558,
-                  -0.6237695217132568,
+                  -0.6237722039222717,
                   -0.2812753915786743,
                   -0.45258739590644836,
                   -0.31901296973228455,
                   -0.31901296973228455,
-                  -0.622584879398346,
+                  -0.6225860118865967,
                   -0.26257678866386414,
-                  -0.621814489364624,
+                  -0.6218149065971375,
                   -0.20880171656608582,
                   -0.426192969083786,
                   -0.2056492418050766,
                   -0.2870507836341858,
                   -0.009048031643033028,
-                  -0.6211167573928833,
-                  -0.620713472366333,
-                  -0.6205200552940369,
-                  -0.6202681660652161,
-                  -0.6225351691246033,
-                  -0.27074405550956726,
+                  -0.6211163401603699,
+                  -0.6207125782966614,
+                  -0.6205189824104309,
+                  -0.620266854763031,
+                  -0.6225353479385376,
+                  -0.2707435190677643,
                   -0.035739339888095856,
                   -0.07900455594062805,
                   -0.07900455594062805,
-                  -0.6201158165931702,
-                  -0.12226268649101257,
-                  -0.6200620532035828,
-                  -0.6200425624847412,
-                  -0.6200382113456726,
-                  -0.6200382113456726,
-                  -0.6200381517410278,
-                  -0.6200381517410278,
-                  -0.2328701615333557,
+                  -0.6201145052909851,
+                  -0.1222628727555275,
+                  -0.6200606822967529,
+                  -0.6200413703918457,
+                  -0.6200369000434875,
+                  -0.6200369000434875,
+                  -0.6200369000434875,
+                  -0.6200369000434875,
+                  -0.23286962509155273,
                   0,
-                  -0.6200381517410278,
-                  -0.1164458841085434,
-                  -0.11642421036958694,
-                  -0.6200381517410278,
+                  -0.6200368404388428,
+                  -0.11644553393125534,
+                  -0.11642399430274963,
+                  -0.6200368404388428,
+                  13.665677070617676,
                   13.66567611694336,
-                  13.665675163269043,
-                  13.665674209594727,
+                  13.66567611694336,
                   -1.110630750656128,
                   -0.9260100722312927,
                   -0.1996878832578659,
@@ -20884,80 +23704,80 @@
                   -0.6837342977523804,
                   -0.6777764558792114,
                   -0.6721432209014893,
-                  0.6200385334164084
+                  0.6200372445820359
                 ],
                 [
                   -0.742084264755249,
-                  -1.3728781938552856,
+                  -1.372878074645996,
                   -0.7304854393005371,
                   -0.7111600041389465,
                   -0.4108666181564331,
-                  -0.30781468749046326,
+                  -0.30781492590904236,
                   -0.3813460171222687,
                   -0.37746956944465637,
                   -0.37334540486335754,
                   -0.9328075051307678,
                   -1.2259143590927124,
-                  0.20506618916988373,
+                  0.20506584644317627,
                   -0.3646019697189331,
                   -0.12295642495155334,
                   -0.12295642495155334,
                   -0.19472357630729675,
-                  -0.36262139678001404,
+                  -0.36262160539627075,
                   -0.36368128657341003,
-                  -0.36262136697769165,
-                  -0.36262133717536926,
+                  -0.36262157559394836,
+                  -0.362621545791626,
                   -0.1927655190229416,
                   -0.1927655190229416,
-                  -0.3626213073730469,
+                  -0.3626215159893036,
                   -0.10835565626621246,
-                  -0.3626212477684021,
+                  -0.3626214861869812,
                   -0.1860443502664566,
                   -0.1860443502664566,
                   -0.18540602922439575,
                   -0.18540602922439575,
-                  -0.3626212179660797,
+                  -0.3626214265823364,
                   -0.22326098382472992,
                   -0.43490681052207947,
                   -0.18253158032894135,
                   -0.18253158032894135,
-                  -0.3626211881637573,
+                  -0.36262139678001404,
                   -0.23690147697925568,
-                  -0.36262112855911255,
+                  -0.36262136697769165,
                   -0.016572872176766396,
-                  -0.3586646020412445,
-                  -0.013239046558737755,
+                  -0.3586646318435669,
+                  -0.013239070773124695,
                   -0.24010658264160156,
                   -0.003007326042279601,
-                  -0.36262112855911255,
-                  -0.36262112855911255,
-                  -0.36262112855911255,
-                  -0.36262109875679016,
-                  -0.36262112855911255,
-                  -0.05017968267202377,
+                  -0.36262133717536926,
+                  -0.36262133717536926,
+                  -0.3626213073730469,
+                  -0.3626213073730469,
+                  -0.36262133717536926,
+                  -0.05017981305718422,
                   -0.04572766646742821,
                   -0.05549170821905136,
                   -0.05549170821905136,
-                  -0.36262109875679016,
-                  -0.054806504398584366,
-                  -0.3626210689544678,
-                  -0.3626210391521454,
-                  -0.362621009349823,
-                  -0.3626209795475006,
-                  -0.3626209795475006,
-                  -0.36262091994285583,
-                  -0.31102004647254944,
+                  -0.3626213073730469,
+                  -0.054806482046842575,
+                  -0.3626212775707245,
+                  -0.3626212477684021,
+                  -0.3626212179660797,
+                  -0.3626211881637573,
+                  -0.36262115836143494,
+                  -0.36262112855911255,
+                  -0.3110200762748718,
                   -0.2918281555175781,
+                  -0.3626210689544678,
+                  -0.0014214282855391502,
+                  -0.0014214070979505777,
+                  -0.3626210391521454,
+                  -0.3626209795475006,
+                  -0.3626209497451782,
                   -0.36262089014053345,
-                  -0.001421382068656385,
-                  -0.0014213621616363525,
-                  -0.36262083053588867,
-                  -0.3626207709312439,
-                  -0.3626207411289215,
-                  -0.36262068152427673,
                   13.92309856414795,
                   13.923086166381836,
-                  1.1678200960159302,
+                  1.1678202152252197,
                   -0.6345763206481934,
                   -0.6160764694213867,
                   -0.6073351502418518,
@@ -20980,7 +23800,7 @@
                   -0.42921939492225647,
                   -0.42293235659599304,
                   -0.41648173332214355,
-                  0.36262002726581155
+                  0.36262005550381166
                 ],
                 [
                   -1.158017635345459,
@@ -20988,12 +23808,12 @@
                   -1.145513653755188,
                   -1.1236789226531982,
                   -1.1312406063079834,
-                  -0.8559366464614868,
+                  -0.8559396266937256,
                   -1.092044711112976,
                   -1.0832935571670532,
                   -1.0751699209213257,
                   -1.578940510749817,
-                  0.34253013134002686,
+                  0.34253019094467163,
                   -1.578940510749817,
                   -1.061655044555664,
                   -0.33011332154273987,
@@ -21005,60 +23825,60 @@
                   -1.0393860340118408,
                   -0.16366343200206757,
                   -1.140960931777954,
-                  -1.0350914001464844,
+                  -1.035091519355774,
                   -0.3233049511909485,
-                  -1.0311801433563232,
+                  -1.0311853885650635,
                   -0.5375967025756836,
                   -0.5375967025756836,
                   -0.5368530750274658,
                   -0.5368530750274658,
-                  -1.0267882347106934,
-                  -0.3425217270851135,
+                  -1.0267982482910156,
+                  -0.342521607875824,
                   -2.149569272994995,
                   -0.530918538570404,
                   -0.530918538570404,
-                  -1.023109793663025,
+                  -1.0231162309646606,
                   -0.458350270986557,
-                  -1.0216591358184814,
+                  -1.0216618776321411,
                   -0.34683024883270264,
                   -0.7076982259750366,
                   -0.33908000588417053,
                   -0.5532492399215698,
                   -0.013639280572533607,
-                  -1.0210545063018799,
-                  -1.0210545063018799,
-                  -1.0210545063018799,
-                  -1.0210543870925903,
-                  -1.0233221054077148,
-                  -0.4524914622306824,
+                  -1.0210531949996948,
+                  -1.0210530757904053,
+                  -1.0210530757904053,
+                  -1.0210530757904053,
+                  -1.0233296155929565,
+                  -0.452490895986557,
                   -0.07012467086315155,
                   -0.13945439457893372,
                   -0.13945439457893372,
-                  -1.0210543870925903,
-                  -0.16573971509933472,
-                  -1.0210543870925903,
-                  -1.0210543870925903,
-                  -1.0210542678833008,
-                  -1.0210542678833008,
-                  -1.0210542678833008,
-                  -1.0210541486740112,
-                  -0.3790418803691864,
+                  -1.0210529565811157,
+                  -0.16574260592460632,
+                  -1.0210529565811157,
+                  -1.0210529565811157,
+                  -1.0210528373718262,
+                  -1.0210528373718262,
+                  -1.0210528373718262,
+                  -1.0210527181625366,
+                  -0.37904131412506104,
                   0,
-                  -1.0210541486740112,
-                  -0.18952125310897827,
-                  -0.1895212084054947,
-                  -1.0210540294647217,
-                  -1.0210540294647217,
-                  -1.0210540294647217,
-                  -1.0210539102554321,
-                  -1.0210537910461426,
-                  -1.0210539102554321,
+                  -1.0210527181625366,
+                  -0.1895209550857544,
+                  -0.1895209103822708,
+                  -1.021052598953247,
+                  -1.021052598953247,
+                  -1.021052598953247,
+                  -1.021052598953247,
+                  -1.021052360534668,
+                  -1.0210524797439575,
                   0,
+                  13.264666557312012,
+                  13.264666557312012,
+                  13.264666557312012,
+                  13.264656066894531,
                   13.264665603637695,
-                  13.264665603637695,
-                  13.264665603637695,
-                  13.264655113220215,
-                  13.264663696289062,
                   -1.7808784246444702,
                   -1.371297836303711,
                   -1.3442829847335815,
@@ -21076,7 +23896,7 @@
                   -1.1642837524414062,
                   -1.1513073444366455,
                   -1.137404203414917,
-                  1.0210512441385393
+                  1.0210500847240156
                 ],
                 [
                   -0.789918065071106,
@@ -21124,37 +23944,37 @@
                   -0.6119108200073242,
                   -0.6085847616195679,
                   -0.6100650429725647,
-                  -0.6045046448707581,
+                  -0.6045047044754028,
                   -0.6299761533737183,
                   -0.2761283218860626,
                   -0.053950920701026917,
                   -0.09978360682725906,
                   -0.09978360682725906,
-                  -0.6008184552192688,
+                  -0.6008214354515076,
                   -0.0696219876408577,
-                  -0.598908007144928,
-                  -0.5975332260131836,
-                  -0.5964227318763733,
-                  -0.5955814123153687,
-                  -0.594944179058075,
-                  -0.594546377658844,
+                  -0.5989122986793518,
+                  -0.5975368022918701,
+                  -0.5964252352714539,
+                  -0.5955826044082642,
+                  -0.5949447154998779,
+                  -0.5945464968681335,
                   -0.21726520359516144,
                   0,
-                  -0.5941979289054871,
+                  -0.594197690486908,
                   -0.11014947295188904,
                   -0.10699576884508133,
-                  -0.5939881205558777,
-                  -0.5938808917999268,
-                  -0.5938273668289185,
-                  -0.5938045382499695,
-                  -0.5942097306251526,
-                  -0.5937958359718323,
+                  -0.5939876437187195,
+                  -0.5938803553581238,
+                  -0.5938265919685364,
+                  -0.593803882598877,
+                  -0.5942092537879944,
+                  -0.5937952995300293,
                   0,
-                  -0.5937938690185547,
-                  -0.5937927961349487,
-                  -0.5937920212745667,
-                  -0.5937915444374084,
-                  -0.5937913656234741,
+                  -0.5937933325767517,
+                  -0.5937923192977905,
+                  -0.593791663646698,
+                  -0.5937913060188293,
+                  -0.5937913060188293,
                   13.691926956176758,
                   13.69191837310791,
                   13.69191837310791,
@@ -21172,7 +23992,7 @@
                   -0.7810279130935669,
                   -0.7671031355857849,
                   -0.7562360763549805,
-                  0.5937916933533588
+                  0.5937916488603736
                 ],
                 [
                   -0.6222525238990784,
@@ -21206,55 +24026,55 @@
                   -0.2633309066295624,
                   -0.43563947081565857,
                   -2.6901016235351562,
-                  0.0000098501805041451,
+                  0.000009535138815408573,
                   -0.23428232967853546,
                   -0.23428232967853546,
                   -4.032158374786377,
                   2.956153392791748,
-                  -0.3913099467754364,
+                  -0.3913101851940155,
                   -0.14249122142791748,
                   -0.28293976187705994,
                   -0.13489900529384613,
                   -0.3609658479690552,
                   -0.0020177464466542006,
-                  -0.391309916973114,
-                  -0.391309916973114,
-                  -0.391309916973114,
-                  -0.3913098871707916,
-                  -0.39130985736846924,
-                  -0.18281680345535278,
+                  -0.3913101851940155,
+                  -0.3913101851940155,
+                  -0.3913101851940155,
+                  -0.3913101553916931,
+                  -0.3913101255893707,
+                  -0.18281690776348114,
                   -0.04227982088923454,
                   -0.06499850749969482,
                   -0.06499850749969482,
                   -3.9900455474853516,
                   0,
-                  -0.39130985736846924,
-                  -0.39130985736846924,
-                  -0.39130982756614685,
-                  -0.39130982756614685,
-                  -0.39130979776382446,
-                  -0.39130979776382446,
-                  -0.1389952450990677,
+                  -0.3913101553916931,
+                  -0.3913101255893707,
+                  -0.3913101255893707,
+                  -0.39131009578704834,
+                  -0.39131009578704834,
+                  -0.39131006598472595,
+                  -0.13899537920951843,
                   0,
-                  -0.39130979776382446,
-                  -0.06949784606695175,
-                  -0.06949783116579056,
-                  -0.3913097679615021,
-                  -0.3913097679615021,
-                  -0.3913097381591797,
-                  -0.3913097381591797,
-                  -0.3913097381591797,
-                  -0.3913097083568573,
+                  -0.39131006598472595,
+                  -0.06949789822101593,
+                  -0.06949789077043533,
+                  -0.39131006598472595,
+                  -0.39131003618240356,
+                  -0.39131003618240356,
+                  -0.39131003618240356,
+                  -0.39131003618240356,
+                  -0.3913100063800812,
                   0,
-                  -0.3913097083568573,
-                  -0.3913097083568573,
-                  -0.3913097083568573,
-                  -0.3913096785545349,
-                  -0.3913096785545349,
-                  -0.3913096785545349,
-                  -0.3913096487522125,
-                  -0.3913096487522125,
-                  13.894410133361816,
+                  -0.3913100063800812,
+                  -0.3913100063800812,
+                  -0.3913100063800812,
+                  -0.3913099765777588,
+                  -0.3913099765777588,
+                  -0.3913099765777588,
+                  -0.3913099467754364,
+                  -0.3913099467754364,
+                  13.8944091796875,
                   10.938240051269531,
                   13.89439582824707,
                   -0.8672845959663391,
@@ -21268,7 +24088,7 @@
                   -0.6008012294769287,
                   -0.5915338397026062,
                   -0.5788993239402771,
-                  0.39130993086411264
+                  0.39131024006148
                 ],
                 [
                   -0.5604603290557861,
@@ -21276,7 +24096,7 @@
                   -0.5470861196517944,
                   -0.5180951952934265,
                   -0.5336129069328308,
-                  -0.39079833030700684,
+                  -0.3907983601093292,
                   -0.46982476115226746,
                   -0.46327903866767883,
                   -0.45683804154396057,
@@ -21302,11 +24122,11 @@
                   -0.2335759848356247,
                   -0.4212101995944977,
                   -0.1977926343679428,
-                  -0.28931477665901184,
+                  -0.2893146574497223,
                   -0.22756972908973694,
                   -0.22756972908973694,
                   -0.4212101995944977,
-                  -0.10502241551876068,
+                  -0.10502250492572784,
                   -0.4212101995944977,
                   -0.1465776413679123,
                   -0.3066936731338501,
@@ -21318,23 +24138,23 @@
                   -0.4212101697921753,
                   -0.4212101697921753,
                   -0.4212101399898529,
-                  -0.1962844282388687,
+                  -0.19628441333770752,
                   -0.041111063212156296,
                   -0.06977938860654831,
                   -0.06977938860654831,
                   -0.4212101399898529,
-                  -0.030411958694458008,
+                  -0.03041192889213562,
                   -0.4212101399898529,
                   -0.4212101399898529,
                   -0.4212101101875305,
                   -0.4212101101875305,
                   -0.4212101101875305,
                   -0.4212101101875305,
-                  -0.1499498188495636,
+                  -0.1499498039484024,
                   0,
                   -0.42121008038520813,
-                  -0.07497595995664597,
-                  -0.07497595995664597,
+                  -0.07497598975896835,
+                  -0.07497598975896835,
                   -0.42121008038520813,
                   -0.42121008038520813,
                   -0.42121008038520813,
@@ -21351,11 +24171,11 @@
                   -0.42120999097824097,
                   -0.42120999097824097,
                   -0.4212099611759186,
-                  -0.02687293104827404,
+                  -0.026872960850596428,
                   -0.4212099611759186,
                   13.86449909210205,
                   13.864502906799316,
-                  0.000004818893103220034,
+                  0.000004818293746211566,
                   -0.7569265365600586,
                   -0.5807211399078369,
                   -0.5656283497810364,
@@ -21364,7 +24184,7 @@
                   -0.5341957807540894,
                   -0.5221818685531616,
                   -0.5135007500648499,
-                  0.4212103747148397
+                  0.4212103753163735
                 ],
                 [
                   -0.32873770594596863,
@@ -21407,52 +24227,52 @@
                   -0.03591799736022949,
                   -1.5445276498794556,
                   -0.025609631091356277,
-                  0.0000028902954909426626,
+                  0.000002875747213693103,
                   -1.4655472040176392,
-                  -0.16291441023349762,
-                  -0.16291441023349762,
-                  -0.16291441023349762,
-                  -0.16291441023349762,
-                  -0.16291439533233643,
-                  -0.07804451882839203,
+                  -0.1629134714603424,
+                  -0.1629134714603424,
+                  -0.1629134714603424,
+                  -0.1629134714603424,
+                  -0.1629134565591812,
+                  -0.07804425805807114,
                   -0.0184477586299181,
                   -0.027482975274324417,
                   -0.027482975274324417,
-                  -0.16291439533233643,
+                  -0.1629134565591812,
                   -0.0019953378941863775,
-                  -0.16291439533233643,
-                  -0.16291439533233643,
-                  -0.16291438043117523,
-                  -0.16291438043117523,
-                  -0.16291438043117523,
-                  -0.16291438043117523,
-                  -0.05657978728413582,
+                  -0.1629134565591812,
+                  -0.1629134565591812,
+                  -0.16291344165802002,
+                  -0.16291344165802002,
+                  -0.16291344165802002,
+                  -0.16291344165802002,
+                  -0.0565793402493,
                   0,
-                  -0.16291436553001404,
-                  -0.02829013578593731,
-                  -0.02829013578593731,
-                  -0.16291436553001404,
-                  -0.16291436553001404,
-                  -0.16291436553001404,
-                  -0.16291435062885284,
-                  -0.16291435062885284,
-                  -0.16291435062885284,
+                  -0.16291342675685883,
+                  -0.028289904817938805,
+                  -0.028289904817938805,
+                  -0.16291342675685883,
+                  -0.16291342675685883,
+                  -0.16291342675685883,
+                  -0.16291341185569763,
+                  -0.16291341185569763,
+                  -0.16291341185569763,
                   0,
-                  -0.16291435062885284,
-                  -0.16291433572769165,
-                  -0.16291433572769165,
-                  -0.16291433572769165,
-                  -0.16291433572769165,
-                  -0.16291432082653046,
-                  -0.16291432082653046,
-                  -0.16291432082653046,
-                  -0.16291430592536926,
+                  -0.16291341185569763,
+                  -0.16291339695453644,
+                  -0.16291339695453644,
+                  -0.16291339695453644,
+                  -0.16291339695453644,
+                  -0.16291338205337524,
+                  -0.16291338205337524,
+                  -0.16291338205337524,
+                  -0.16291336715221405,
                   0,
-                  -0.16291430592536926,
-                  -0.16291430592536926,
-                  -0.16291430592536926,
+                  -0.16291336715221405,
+                  -0.16291336715221405,
+                  -0.16291336715221405,
                   -0.026645855978131294,
-                  14.122797012329102,
+                  14.122797966003418,
                   -0.323472797870636,
                   -0.3132137358188629,
                   -0.31059518456459045,
@@ -21460,7 +24280,7 @@
                   -0.2924887239933014,
                   -0.2837962508201599,
                   -0.27987581491470337,
-                  0.16291450071889407
+                  0.16291356145615288
                 ],
                 [
                   -0.8823385834693909,
@@ -21494,11 +24314,11 @@
                   -0.38446757197380066,
                   -0.6777601838111877,
                   -0.3319852650165558,
-                  -0.45140546560287476,
+                  -0.4514048993587494,
                   -0.3761902451515198,
                   -0.3761902451515198,
                   -0.6743720173835754,
-                  -0.13622063398361206,
+                  -0.13622009754180908,
                   -0.663349449634552,
                   -0.2146521508693695,
                   -0.5318273305892944,
@@ -21518,45 +24338,45 @@
                   -0.06646064668893814,
                   -0.6336824297904968,
                   -0.6307467222213745,
-                  -0.6278958916664124,
-                  -0.6255295872688293,
-                  -0.6234106421470642,
-                  -0.6217456459999084,
+                  -0.6278966069221497,
+                  -0.6255325675010681,
+                  -0.6234156489372253,
+                  -0.6217514276504517,
                   -0.2315932959318161,
                   0,
-                  -0.6199375987052917,
+                  -0.6199429035186768,
                   -0.11825603991746902,
                   -0.11298361420631409,
-                  -0.6184096932411194,
-                  -0.6172909140586853,
-                  -0.6163654923439026,
-                  -0.6156207323074341,
-                  -0.6227928400039673,
-                  -0.6148523688316345,
+                  -0.6184133887290955,
+                  -0.6172931790351868,
+                  -0.6163665652275085,
+                  -0.6156212091445923,
+                  -0.6227933764457703,
+                  -0.6148518323898315,
                   0,
-                  -0.6144850254058838,
-                  -0.6142285466194153,
-                  -0.6140676736831665,
-                  -0.6139710545539856,
-                  -0.6139203906059265,
-                  -0.6146295070648193,
-                  -0.6138939261436462,
-                  -0.6138898730278015,
-                  -0.6138898730278015,
-                  -0.02631613239645958,
-                  -0.6138898730278015,
-                  -0.6138898134231567,
-                  -0.6138898134231567,
+                  -0.6144840121269226,
+                  -0.6142272353172302,
+                  -0.6140663623809814,
+                  -0.613969624042511,
+                  -0.6139189600944519,
+                  -0.6146285533905029,
+                  -0.613892674446106,
+                  -0.6138885617256165,
+                  -0.6138885617256165,
+                  -0.026315661147236824,
+                  -0.6138885617256165,
+                  -0.6138885617256165,
+                  -0.6138885021209717,
                   -0.11446792632341385,
-                  -0.6138898134231567,
+                  -0.6138885021209717,
+                  13.671825408935547,
                   13.67182445526123,
-                  13.671823501586914,
-                  13.671822547912598,
+                  13.67182445526123,
                   -0.8783339858055115,
                   -0.8605340123176575,
                   -0.8480056524276733,
                   -0.8351336121559143,
-                  0.6138902054228771
+                  0.6138889105529409
                 ],
                 [
                   -0.9405810832977295,
@@ -21590,11 +24410,11 @@
                   -0.40332210063934326,
                   -0.6939049959182739,
                   -0.3430856168270111,
-                  -0.46075037121772766,
+                  -0.4607502818107605,
                   -0.3915184438228607,
                   -0.3915184438228607,
                   -0.6910840272903442,
-                  -0.13599827885627747,
+                  -0.1359981745481491,
                   -0.676011860370636,
                   -0.22264361381530762,
                   -0.5561514496803284,
@@ -21616,43 +24436,43 @@
                   -0.6365935206413269,
                   -0.6329318284988403,
                   -0.6295560002326965,
-                  -0.6267586350440979,
-                  -0.6243876814842224,
+                  -0.6267586946487427,
+                  -0.6243883967399597,
                   -0.2338031679391861,
                   0,
-                  -0.6217333078384399,
+                  -0.6217362284660339,
                   -0.11999563127756119,
                   -0.11347580701112747,
-                  -0.6193155646324158,
-                  -0.6175005435943604,
-                  -0.6160111427307129,
-                  -0.6146469116210938,
+                  -0.619320809841156,
+                  -0.6175065636634827,
+                  -0.6160157918930054,
+                  -0.6146506071090698,
                   -0.6269855499267578,
-                  -0.6130238175392151,
+                  -0.6130257248878479,
                   0,
-                  -0.6122124791145325,
-                  -0.6115391850471497,
-                  -0.6110379099845886,
-                  -0.6106771230697632,
-                  -0.6104196906089783,
-                  -0.6132058501243591,
-                  -0.6102089285850525,
-                  -0.6101289391517639,
-                  -0.6100902557373047,
-                  -0.014267126098275185,
-                  -0.6100746393203735,
-                  -0.6100719571113586,
-                  -0.6100719571113586,
+                  -0.6122130155563354,
+                  -0.6115391254425049,
+                  -0.6110371947288513,
+                  -0.6106759905815125,
+                  -0.6104182004928589,
+                  -0.6132069230079651,
+                  -0.6102073192596436,
+                  -0.6101271510124207,
+                  -0.6100887060165405,
+                  -0.01426700595766306,
+                  -0.6100731492042542,
+                  -0.6100704073905945,
+                  -0.6100704073905945,
                   -0.11830506473779678,
-                  -0.6100719571113586,
-                  -0.6100719571113586,
-                  -0.6100718975067139,
-                  -0.6100718975067139,
+                  -0.6100704073905945,
+                  -0.6100703477859497,
+                  -0.6100703477859497,
+                  -0.6100703477859497,
+                  13.675643920898438,
+                  13.675642967224121,
                   13.675642013549805,
-                  13.675641059875488,
-                  13.675641059875488,
                   -0.8779947757720947,
-                  0.6100723057552937
+                  0.6100707399858579
                 ],
                 [
                   -0.3302499055862427,
@@ -21686,11 +24506,11 @@
                   -0.13859950006008148,
                   -0.23447534441947937,
                   -0.11776570975780487,
-                  -0.1554206758737564,
+                  -0.15542083978652954,
                   -0.13412772119045258,
                   -0.13412772119045258,
                   -0.23362885415554047,
-                  -0.04469702020287514,
+                  -0.04469715431332588,
                   -0.22765764594078064,
                   -0.07679629325866699,
                   -0.1918499767780304,
@@ -21719,26 +24539,26 @@
                   -0.20583178102970123,
                   -0.04027945548295975,
                   -0.03778243809938431,
-                  -0.2047814577817917,
-                  -0.2039739042520523,
-                  -0.2032407969236374,
-                  -0.20258782804012299,
+                  -0.20478172600269318,
+                  -0.2039749026298523,
+                  -0.20324242115020752,
+                  -0.20258979499340057,
                   -0.20854336023330688,
-                  -0.2017161250114441,
+                  -0.201717808842659,
                   0,
-                  -0.2012450397014618,
-                  -0.20087014138698578,
-                  -0.20055581629276276,
-                  -0.2003020942211151,
-                  -0.20010825991630554,
-                  -0.20207750797271729,
-                  -0.1999119222164154,
-                  -0.19982077181339264,
-                  -0.19976311922073364,
-                  -0.00072567566530779,
-                  -0.19973017275333405,
-                  -0.19971925020217896,
-                  -0.1997068226337433,
+                  -0.20124636590480804,
+                  -0.20087088644504547,
+                  -0.20055612921714783,
+                  -0.2003021240234375,
+                  -0.20010805130004883,
+                  -0.20207826793193817,
+                  -0.1999114602804184,
+                  -0.19982025027275085,
+                  -0.1997625231742859,
+                  -0.0007258205441758037,
+                  -0.1997295618057251,
+                  -0.19971863925457,
+                  -0.19970619678497314,
                   -0.04008645936846733,
                   -0.199705570936203,
                   -0.199705570936203,
@@ -21748,7 +24568,7 @@
                   -0.1997055560350418,
                   -0.1997055560350418,
                   14.086008071899414,
-                  0.19970565753088312
+                  0.19970565757974204
                 ]
               ]
             }
@@ -21758,6 +24578,2262 @@
     },
     "intentDomains": {},
     "extraSentences": [
+      [
+        "en",
+        "attack the"
+      ],
+      [
+        "en",
+        "destroy the"
+      ],
+      [
+        "en",
+        "attack"
+      ],
+      [
+        "en",
+        "destroy"
+      ],
+      [
+        "en",
+        "kill"
+      ],
+      [
+        "en",
+        "kill the"
+      ],
+      [
+        "en",
+        "fight them"
+      ],
+      [
+        "en",
+        "fight"
+      ],
+      [
+        "en",
+        "explode"
+      ],
+      [
+        "en",
+        "eliminate"
+      ],
+      [
+        "en",
+        "punch"
+      ],
+      [
+        "en",
+        "blow it up"
+      ],
+      [
+        "en",
+        "escape"
+      ],
+      [
+        "en",
+        "run away from"
+      ],
+      [
+        "en",
+        "runaway"
+      ],
+      [
+        "en",
+        "flee"
+      ],
+      [
+        "en",
+        "flee from"
+      ],
+      [
+        "en",
+        "lighspeed"
+      ],
+      [
+        "en",
+        "hyperspace"
+      ],
+      [
+        "en",
+        "continue on"
+      ],
+      [
+        "en",
+        "abort"
+      ],
+      [
+        "en",
+        "bribe them"
+      ],
+      [
+        "en",
+        "investigate"
+      ],
+      [
+        "en",
+        "check out"
+      ],
+      [
+        "en",
+        "look at"
+      ],
+      [
+        "en",
+        "study"
+      ],
+      [
+        "en",
+        "go to"
+      ],
+      [
+        "en",
+        "see what"
+      ],
+      [
+        "en",
+        "find"
+      ],
+      [
+        "en",
+        "try to find"
+      ],
+      [
+        "en",
+        "trick"
+      ],
+      [
+        "en",
+        "repair ship"
+      ],
+      [
+        "en",
+        "rebuild ship"
+      ],
+      [
+        "en",
+        "buy ship parts"
+      ],
+      [
+        "en",
+        "fix"
+      ],
+      [
+        "en",
+        "fix the ship"
+      ],
+      [
+        "en",
+        "clean"
+      ],
+      [
+        "en",
+        "peace"
+      ],
+      [
+        "en",
+        "befriend them"
+      ],
+      [
+        "en",
+        "befriend"
+      ],
+      [
+        "en",
+        "negotiate"
+      ],
+      [
+        "en",
+        "negotiate a deal"
+      ],
+      [
+        "en",
+        "negotiate"
+      ],
+      [
+        "en",
+        "negotiate peace"
+      ],
+      [
+        "en",
+        "make peace with"
+      ],
+      [
+        "en",
+        "calm"
+      ],
+      [
+        "en",
+        "try to calm"
+      ],
+      [
+        "en",
+        "calm them"
+      ],
+      [
+        "en",
+        "invite them"
+      ],
+      [
+        "en",
+        "hi"
+      ],
+      [
+        "en",
+        "hello"
+      ],
+      [
+        "en",
+        "howdy"
+      ],
+      [
+        "en",
+        "hey"
+      ],
+      [
+        "en",
+        "remove"
+      ],
+      [
+        "en",
+        "go on foot"
+      ],
+      [
+        "en",
+        "send the cew"
+      ],
+      [
+        "en",
+        "foot"
+      ],
+      [
+        "en",
+        "ground"
+      ],
+      [
+        "en",
+        "send a team"
+      ],
+      [
+        "en",
+        "send a crew"
+      ],
+      [
+        "en",
+        "land"
+      ],
+      [
+        "en",
+        "collect"
+      ],
+      [
+        "en",
+        "retrieve"
+      ],
+      [
+        "en",
+        "mine"
+      ],
+      [
+        "en",
+        "defense"
+      ],
+      [
+        "en",
+        "defensively"
+      ],
+      [
+        "en",
+        "shields"
+      ],
+      [
+        "en",
+        "put up the shields"
+      ],
+      [
+        "en",
+        "dodge"
+      ],
+      [
+        "en",
+        "evade"
+      ],
+      [
+        "en",
+        "maneuver"
+      ],
+      [
+        "en",
+        "go around it"
+      ],
+      [
+        "en",
+        "around"
+      ],
+      [
+        "en",
+        "move"
+      ],
+      [
+        "en",
+        "carefully"
+      ],
+      [
+        "en",
+        "careful"
+      ],
+      [
+        "en",
+        "slowly"
+      ],
+      [
+        "en",
+        "slow"
+      ],
+      [
+        "en",
+        "communicate"
+      ],
+      [
+        "en",
+        "try to communicaate"
+      ],
+      [
+        "en",
+        "talk"
+      ],
+      [
+        "en",
+        "talk to"
+      ],
+      [
+        "en",
+        "nothing"
+      ],
+      [
+        "en",
+        "wait"
+      ],
+      [
+        "en",
+        "do nothing"
+      ],
+      [
+        "en",
+        "buy fuel"
+      ],
+      [
+        "en",
+        "fuel"
+      ],
+      [
+        "en",
+        "eat"
+      ],
+      [
+        "en",
+        "consume"
+      ],
+      [
+        "en",
+        "taste"
+      ],
+      [
+        "en",
+        "capture"
+      ],
+      [
+        "en",
+        "cage"
+      ],
+      [
+        "en",
+        "pet"
+      ],
+      [
+        "en",
+        "error"
+      ],
+      [
+        "en",
+        "attack the"
+      ],
+      [
+        "en",
+        "destroy the"
+      ],
+      [
+        "en",
+        "attack"
+      ],
+      [
+        "en",
+        "destroy"
+      ],
+      [
+        "en",
+        "kill"
+      ],
+      [
+        "en",
+        "kill the"
+      ],
+      [
+        "en",
+        "fight them"
+      ],
+      [
+        "en",
+        "fight"
+      ],
+      [
+        "en",
+        "explode"
+      ],
+      [
+        "en",
+        "eliminate"
+      ],
+      [
+        "en",
+        "punch"
+      ],
+      [
+        "en",
+        "blow it up"
+      ],
+      [
+        "en",
+        "escape"
+      ],
+      [
+        "en",
+        "run away from"
+      ],
+      [
+        "en",
+        "runaway"
+      ],
+      [
+        "en",
+        "flee"
+      ],
+      [
+        "en",
+        "flee from"
+      ],
+      [
+        "en",
+        "lighspeed"
+      ],
+      [
+        "en",
+        "hyperspace"
+      ],
+      [
+        "en",
+        "continue on"
+      ],
+      [
+        "en",
+        "abort"
+      ],
+      [
+        "en",
+        "bribe them"
+      ],
+      [
+        "en",
+        "investigate"
+      ],
+      [
+        "en",
+        "check out"
+      ],
+      [
+        "en",
+        "look at"
+      ],
+      [
+        "en",
+        "study"
+      ],
+      [
+        "en",
+        "go to"
+      ],
+      [
+        "en",
+        "see what"
+      ],
+      [
+        "en",
+        "find"
+      ],
+      [
+        "en",
+        "try to find"
+      ],
+      [
+        "en",
+        "trick"
+      ],
+      [
+        "en",
+        "repair ship"
+      ],
+      [
+        "en",
+        "rebuild ship"
+      ],
+      [
+        "en",
+        "buy ship parts"
+      ],
+      [
+        "en",
+        "fix"
+      ],
+      [
+        "en",
+        "fix the ship"
+      ],
+      [
+        "en",
+        "clean"
+      ],
+      [
+        "en",
+        "peace"
+      ],
+      [
+        "en",
+        "befriend them"
+      ],
+      [
+        "en",
+        "befriend"
+      ],
+      [
+        "en",
+        "negotiate"
+      ],
+      [
+        "en",
+        "negotiate a deal"
+      ],
+      [
+        "en",
+        "negotiate"
+      ],
+      [
+        "en",
+        "negotiate peace"
+      ],
+      [
+        "en",
+        "make peace with"
+      ],
+      [
+        "en",
+        "calm"
+      ],
+      [
+        "en",
+        "try to calm"
+      ],
+      [
+        "en",
+        "calm them"
+      ],
+      [
+        "en",
+        "invite them"
+      ],
+      [
+        "en",
+        "hi"
+      ],
+      [
+        "en",
+        "hello"
+      ],
+      [
+        "en",
+        "howdy"
+      ],
+      [
+        "en",
+        "hey"
+      ],
+      [
+        "en",
+        "remove"
+      ],
+      [
+        "en",
+        "go on foot"
+      ],
+      [
+        "en",
+        "send the cew"
+      ],
+      [
+        "en",
+        "foot"
+      ],
+      [
+        "en",
+        "ground"
+      ],
+      [
+        "en",
+        "send a team"
+      ],
+      [
+        "en",
+        "send a crew"
+      ],
+      [
+        "en",
+        "land"
+      ],
+      [
+        "en",
+        "collect"
+      ],
+      [
+        "en",
+        "retrieve"
+      ],
+      [
+        "en",
+        "mine"
+      ],
+      [
+        "en",
+        "defense"
+      ],
+      [
+        "en",
+        "defensively"
+      ],
+      [
+        "en",
+        "shields"
+      ],
+      [
+        "en",
+        "put up the shields"
+      ],
+      [
+        "en",
+        "dodge"
+      ],
+      [
+        "en",
+        "evade"
+      ],
+      [
+        "en",
+        "maneuver"
+      ],
+      [
+        "en",
+        "go around it"
+      ],
+      [
+        "en",
+        "around"
+      ],
+      [
+        "en",
+        "move"
+      ],
+      [
+        "en",
+        "carefully"
+      ],
+      [
+        "en",
+        "careful"
+      ],
+      [
+        "en",
+        "slowly"
+      ],
+      [
+        "en",
+        "slow"
+      ],
+      [
+        "en",
+        "communicate"
+      ],
+      [
+        "en",
+        "try to communicaate"
+      ],
+      [
+        "en",
+        "talk"
+      ],
+      [
+        "en",
+        "talk to"
+      ],
+      [
+        "en",
+        "nothing"
+      ],
+      [
+        "en",
+        "wait"
+      ],
+      [
+        "en",
+        "do nothing"
+      ],
+      [
+        "en",
+        "buy fuel"
+      ],
+      [
+        "en",
+        "fuel"
+      ],
+      [
+        "en",
+        "eat"
+      ],
+      [
+        "en",
+        "consume"
+      ],
+      [
+        "en",
+        "taste"
+      ],
+      [
+        "en",
+        "capture"
+      ],
+      [
+        "en",
+        "cage"
+      ],
+      [
+        "en",
+        "pet"
+      ],
+      [
+        "en",
+        "error"
+      ],
+      [
+        "en",
+        "attack the"
+      ],
+      [
+        "en",
+        "destroy the"
+      ],
+      [
+        "en",
+        "attack"
+      ],
+      [
+        "en",
+        "destroy"
+      ],
+      [
+        "en",
+        "kill"
+      ],
+      [
+        "en",
+        "kill the"
+      ],
+      [
+        "en",
+        "fight them"
+      ],
+      [
+        "en",
+        "fight"
+      ],
+      [
+        "en",
+        "explode"
+      ],
+      [
+        "en",
+        "eliminate"
+      ],
+      [
+        "en",
+        "punch"
+      ],
+      [
+        "en",
+        "blow it up"
+      ],
+      [
+        "en",
+        "escape"
+      ],
+      [
+        "en",
+        "run away from"
+      ],
+      [
+        "en",
+        "runaway"
+      ],
+      [
+        "en",
+        "flee"
+      ],
+      [
+        "en",
+        "flee from"
+      ],
+      [
+        "en",
+        "lighspeed"
+      ],
+      [
+        "en",
+        "hyperspace"
+      ],
+      [
+        "en",
+        "continue on"
+      ],
+      [
+        "en",
+        "abort"
+      ],
+      [
+        "en",
+        "bribe them"
+      ],
+      [
+        "en",
+        "investigate"
+      ],
+      [
+        "en",
+        "check out"
+      ],
+      [
+        "en",
+        "look at"
+      ],
+      [
+        "en",
+        "study"
+      ],
+      [
+        "en",
+        "go to"
+      ],
+      [
+        "en",
+        "see what"
+      ],
+      [
+        "en",
+        "find"
+      ],
+      [
+        "en",
+        "try to find"
+      ],
+      [
+        "en",
+        "trick"
+      ],
+      [
+        "en",
+        "repair ship"
+      ],
+      [
+        "en",
+        "rebuild ship"
+      ],
+      [
+        "en",
+        "buy ship parts"
+      ],
+      [
+        "en",
+        "fix"
+      ],
+      [
+        "en",
+        "fix the ship"
+      ],
+      [
+        "en",
+        "clean"
+      ],
+      [
+        "en",
+        "peace"
+      ],
+      [
+        "en",
+        "befriend them"
+      ],
+      [
+        "en",
+        "befriend"
+      ],
+      [
+        "en",
+        "negotiate"
+      ],
+      [
+        "en",
+        "negotiate a deal"
+      ],
+      [
+        "en",
+        "negotiate"
+      ],
+      [
+        "en",
+        "negotiate peace"
+      ],
+      [
+        "en",
+        "make peace with"
+      ],
+      [
+        "en",
+        "calm"
+      ],
+      [
+        "en",
+        "try to calm"
+      ],
+      [
+        "en",
+        "calm them"
+      ],
+      [
+        "en",
+        "invite them"
+      ],
+      [
+        "en",
+        "hi"
+      ],
+      [
+        "en",
+        "hello"
+      ],
+      [
+        "en",
+        "howdy"
+      ],
+      [
+        "en",
+        "hey"
+      ],
+      [
+        "en",
+        "remove"
+      ],
+      [
+        "en",
+        "go on foot"
+      ],
+      [
+        "en",
+        "send the cew"
+      ],
+      [
+        "en",
+        "foot"
+      ],
+      [
+        "en",
+        "ground"
+      ],
+      [
+        "en",
+        "send a team"
+      ],
+      [
+        "en",
+        "send a crew"
+      ],
+      [
+        "en",
+        "land"
+      ],
+      [
+        "en",
+        "collect"
+      ],
+      [
+        "en",
+        "retrieve"
+      ],
+      [
+        "en",
+        "mine"
+      ],
+      [
+        "en",
+        "defense"
+      ],
+      [
+        "en",
+        "defensively"
+      ],
+      [
+        "en",
+        "shields"
+      ],
+      [
+        "en",
+        "put up the shields"
+      ],
+      [
+        "en",
+        "dodge"
+      ],
+      [
+        "en",
+        "evade"
+      ],
+      [
+        "en",
+        "maneuver"
+      ],
+      [
+        "en",
+        "go around it"
+      ],
+      [
+        "en",
+        "around"
+      ],
+      [
+        "en",
+        "move"
+      ],
+      [
+        "en",
+        "carefully"
+      ],
+      [
+        "en",
+        "careful"
+      ],
+      [
+        "en",
+        "slowly"
+      ],
+      [
+        "en",
+        "slow"
+      ],
+      [
+        "en",
+        "communicate"
+      ],
+      [
+        "en",
+        "try to communicaate"
+      ],
+      [
+        "en",
+        "talk"
+      ],
+      [
+        "en",
+        "talk to"
+      ],
+      [
+        "en",
+        "nothing"
+      ],
+      [
+        "en",
+        "wait"
+      ],
+      [
+        "en",
+        "do nothing"
+      ],
+      [
+        "en",
+        "buy fuel"
+      ],
+      [
+        "en",
+        "fuel"
+      ],
+      [
+        "en",
+        "eat"
+      ],
+      [
+        "en",
+        "consume"
+      ],
+      [
+        "en",
+        "taste"
+      ],
+      [
+        "en",
+        "capture"
+      ],
+      [
+        "en",
+        "cage"
+      ],
+      [
+        "en",
+        "pet"
+      ],
+      [
+        "en",
+        "error"
+      ],
+      [
+        "en",
+        "attack the"
+      ],
+      [
+        "en",
+        "destroy the"
+      ],
+      [
+        "en",
+        "attack"
+      ],
+      [
+        "en",
+        "destroy"
+      ],
+      [
+        "en",
+        "kill"
+      ],
+      [
+        "en",
+        "kill the"
+      ],
+      [
+        "en",
+        "fight them"
+      ],
+      [
+        "en",
+        "fight"
+      ],
+      [
+        "en",
+        "explode"
+      ],
+      [
+        "en",
+        "eliminate"
+      ],
+      [
+        "en",
+        "punch"
+      ],
+      [
+        "en",
+        "blow it up"
+      ],
+      [
+        "en",
+        "escape"
+      ],
+      [
+        "en",
+        "run away from"
+      ],
+      [
+        "en",
+        "runaway"
+      ],
+      [
+        "en",
+        "flee"
+      ],
+      [
+        "en",
+        "flee from"
+      ],
+      [
+        "en",
+        "lighspeed"
+      ],
+      [
+        "en",
+        "hyperspace"
+      ],
+      [
+        "en",
+        "continue on"
+      ],
+      [
+        "en",
+        "abort"
+      ],
+      [
+        "en",
+        "bribe them"
+      ],
+      [
+        "en",
+        "investigate"
+      ],
+      [
+        "en",
+        "check out"
+      ],
+      [
+        "en",
+        "look at"
+      ],
+      [
+        "en",
+        "study"
+      ],
+      [
+        "en",
+        "go to"
+      ],
+      [
+        "en",
+        "see what"
+      ],
+      [
+        "en",
+        "find"
+      ],
+      [
+        "en",
+        "try to find"
+      ],
+      [
+        "en",
+        "trick"
+      ],
+      [
+        "en",
+        "repair ship"
+      ],
+      [
+        "en",
+        "rebuild ship"
+      ],
+      [
+        "en",
+        "buy ship parts"
+      ],
+      [
+        "en",
+        "fix"
+      ],
+      [
+        "en",
+        "fix the ship"
+      ],
+      [
+        "en",
+        "clean"
+      ],
+      [
+        "en",
+        "peace"
+      ],
+      [
+        "en",
+        "befriend them"
+      ],
+      [
+        "en",
+        "befriend"
+      ],
+      [
+        "en",
+        "negotiate"
+      ],
+      [
+        "en",
+        "negotiate a deal"
+      ],
+      [
+        "en",
+        "negotiate"
+      ],
+      [
+        "en",
+        "negotiate peace"
+      ],
+      [
+        "en",
+        "make peace with"
+      ],
+      [
+        "en",
+        "calm"
+      ],
+      [
+        "en",
+        "try to calm"
+      ],
+      [
+        "en",
+        "calm them"
+      ],
+      [
+        "en",
+        "invite them"
+      ],
+      [
+        "en",
+        "hi"
+      ],
+      [
+        "en",
+        "hello"
+      ],
+      [
+        "en",
+        "howdy"
+      ],
+      [
+        "en",
+        "hey"
+      ],
+      [
+        "en",
+        "remove"
+      ],
+      [
+        "en",
+        "go on foot"
+      ],
+      [
+        "en",
+        "send the cew"
+      ],
+      [
+        "en",
+        "foot"
+      ],
+      [
+        "en",
+        "ground"
+      ],
+      [
+        "en",
+        "send a team"
+      ],
+      [
+        "en",
+        "send a crew"
+      ],
+      [
+        "en",
+        "land"
+      ],
+      [
+        "en",
+        "collect"
+      ],
+      [
+        "en",
+        "retrieve"
+      ],
+      [
+        "en",
+        "mine"
+      ],
+      [
+        "en",
+        "defense"
+      ],
+      [
+        "en",
+        "defensively"
+      ],
+      [
+        "en",
+        "shields"
+      ],
+      [
+        "en",
+        "put up the shields"
+      ],
+      [
+        "en",
+        "dodge"
+      ],
+      [
+        "en",
+        "evade"
+      ],
+      [
+        "en",
+        "maneuver"
+      ],
+      [
+        "en",
+        "go around it"
+      ],
+      [
+        "en",
+        "around"
+      ],
+      [
+        "en",
+        "move"
+      ],
+      [
+        "en",
+        "carefully"
+      ],
+      [
+        "en",
+        "careful"
+      ],
+      [
+        "en",
+        "slowly"
+      ],
+      [
+        "en",
+        "slow"
+      ],
+      [
+        "en",
+        "communicate"
+      ],
+      [
+        "en",
+        "try to communicaate"
+      ],
+      [
+        "en",
+        "talk"
+      ],
+      [
+        "en",
+        "talk to"
+      ],
+      [
+        "en",
+        "nothing"
+      ],
+      [
+        "en",
+        "wait"
+      ],
+      [
+        "en",
+        "do nothing"
+      ],
+      [
+        "en",
+        "buy fuel"
+      ],
+      [
+        "en",
+        "fuel"
+      ],
+      [
+        "en",
+        "eat"
+      ],
+      [
+        "en",
+        "consume"
+      ],
+      [
+        "en",
+        "taste"
+      ],
+      [
+        "en",
+        "capture"
+      ],
+      [
+        "en",
+        "cage"
+      ],
+      [
+        "en",
+        "pet"
+      ],
+      [
+        "en",
+        "error"
+      ],
+      [
+        "en",
+        "attack the"
+      ],
+      [
+        "en",
+        "destroy the"
+      ],
+      [
+        "en",
+        "attack"
+      ],
+      [
+        "en",
+        "destroy"
+      ],
+      [
+        "en",
+        "kill"
+      ],
+      [
+        "en",
+        "kill the"
+      ],
+      [
+        "en",
+        "fight them"
+      ],
+      [
+        "en",
+        "fight"
+      ],
+      [
+        "en",
+        "explode"
+      ],
+      [
+        "en",
+        "eliminate"
+      ],
+      [
+        "en",
+        "punch"
+      ],
+      [
+        "en",
+        "blow it up"
+      ],
+      [
+        "en",
+        "escape"
+      ],
+      [
+        "en",
+        "run away from"
+      ],
+      [
+        "en",
+        "runaway"
+      ],
+      [
+        "en",
+        "flee"
+      ],
+      [
+        "en",
+        "flee from"
+      ],
+      [
+        "en",
+        "lighspeed"
+      ],
+      [
+        "en",
+        "hyperspace"
+      ],
+      [
+        "en",
+        "continue on"
+      ],
+      [
+        "en",
+        "abort"
+      ],
+      [
+        "en",
+        "bribe them"
+      ],
+      [
+        "en",
+        "investigate"
+      ],
+      [
+        "en",
+        "check out"
+      ],
+      [
+        "en",
+        "look at"
+      ],
+      [
+        "en",
+        "study"
+      ],
+      [
+        "en",
+        "go to"
+      ],
+      [
+        "en",
+        "see what"
+      ],
+      [
+        "en",
+        "find"
+      ],
+      [
+        "en",
+        "try to find"
+      ],
+      [
+        "en",
+        "trick"
+      ],
+      [
+        "en",
+        "repair ship"
+      ],
+      [
+        "en",
+        "rebuild ship"
+      ],
+      [
+        "en",
+        "buy ship parts"
+      ],
+      [
+        "en",
+        "fix"
+      ],
+      [
+        "en",
+        "fix the ship"
+      ],
+      [
+        "en",
+        "clean"
+      ],
+      [
+        "en",
+        "peace"
+      ],
+      [
+        "en",
+        "befriend them"
+      ],
+      [
+        "en",
+        "befriend"
+      ],
+      [
+        "en",
+        "negotiate"
+      ],
+      [
+        "en",
+        "negotiate a deal"
+      ],
+      [
+        "en",
+        "negotiate"
+      ],
+      [
+        "en",
+        "negotiate peace"
+      ],
+      [
+        "en",
+        "make peace with"
+      ],
+      [
+        "en",
+        "calm"
+      ],
+      [
+        "en",
+        "try to calm"
+      ],
+      [
+        "en",
+        "calm them"
+      ],
+      [
+        "en",
+        "invite them"
+      ],
+      [
+        "en",
+        "hi"
+      ],
+      [
+        "en",
+        "hello"
+      ],
+      [
+        "en",
+        "howdy"
+      ],
+      [
+        "en",
+        "hey"
+      ],
+      [
+        "en",
+        "remove"
+      ],
+      [
+        "en",
+        "go on foot"
+      ],
+      [
+        "en",
+        "send the cew"
+      ],
+      [
+        "en",
+        "foot"
+      ],
+      [
+        "en",
+        "ground"
+      ],
+      [
+        "en",
+        "send a team"
+      ],
+      [
+        "en",
+        "send a crew"
+      ],
+      [
+        "en",
+        "land"
+      ],
+      [
+        "en",
+        "collect"
+      ],
+      [
+        "en",
+        "retrieve"
+      ],
+      [
+        "en",
+        "mine"
+      ],
+      [
+        "en",
+        "defense"
+      ],
+      [
+        "en",
+        "defensively"
+      ],
+      [
+        "en",
+        "shields"
+      ],
+      [
+        "en",
+        "put up the shields"
+      ],
+      [
+        "en",
+        "dodge"
+      ],
+      [
+        "en",
+        "evade"
+      ],
+      [
+        "en",
+        "maneuver"
+      ],
+      [
+        "en",
+        "go around it"
+      ],
+      [
+        "en",
+        "around"
+      ],
+      [
+        "en",
+        "move"
+      ],
+      [
+        "en",
+        "carefully"
+      ],
+      [
+        "en",
+        "careful"
+      ],
+      [
+        "en",
+        "slowly"
+      ],
+      [
+        "en",
+        "slow"
+      ],
+      [
+        "en",
+        "communicate"
+      ],
+      [
+        "en",
+        "try to communicaate"
+      ],
+      [
+        "en",
+        "talk"
+      ],
+      [
+        "en",
+        "talk to"
+      ],
+      [
+        "en",
+        "nothing"
+      ],
+      [
+        "en",
+        "wait"
+      ],
+      [
+        "en",
+        "do nothing"
+      ],
+      [
+        "en",
+        "buy fuel"
+      ],
+      [
+        "en",
+        "fuel"
+      ],
+      [
+        "en",
+        "eat"
+      ],
+      [
+        "en",
+        "consume"
+      ],
+      [
+        "en",
+        "taste"
+      ],
+      [
+        "en",
+        "capture"
+      ],
+      [
+        "en",
+        "cage"
+      ],
+      [
+        "en",
+        "pet"
+      ],
+      [
+        "en",
+        "error"
+      ],
+      [
+        "en",
+        "attack the"
+      ],
+      [
+        "en",
+        "destroy the"
+      ],
+      [
+        "en",
+        "attack"
+      ],
+      [
+        "en",
+        "destroy"
+      ],
+      [
+        "en",
+        "kill"
+      ],
+      [
+        "en",
+        "kill the"
+      ],
+      [
+        "en",
+        "fight them"
+      ],
+      [
+        "en",
+        "fight"
+      ],
+      [
+        "en",
+        "explode"
+      ],
+      [
+        "en",
+        "eliminate"
+      ],
+      [
+        "en",
+        "punch"
+      ],
+      [
+        "en",
+        "blow it up"
+      ],
+      [
+        "en",
+        "escape"
+      ],
+      [
+        "en",
+        "run away from"
+      ],
+      [
+        "en",
+        "runaway"
+      ],
+      [
+        "en",
+        "flee"
+      ],
+      [
+        "en",
+        "flee from"
+      ],
+      [
+        "en",
+        "lighspeed"
+      ],
+      [
+        "en",
+        "hyperspace"
+      ],
+      [
+        "en",
+        "continue on"
+      ],
+      [
+        "en",
+        "abort"
+      ],
+      [
+        "en",
+        "bribe them"
+      ],
+      [
+        "en",
+        "investigate"
+      ],
+      [
+        "en",
+        "check out"
+      ],
+      [
+        "en",
+        "look at"
+      ],
+      [
+        "en",
+        "study"
+      ],
+      [
+        "en",
+        "go to"
+      ],
+      [
+        "en",
+        "see what"
+      ],
+      [
+        "en",
+        "find"
+      ],
+      [
+        "en",
+        "try to find"
+      ],
+      [
+        "en",
+        "trick"
+      ],
+      [
+        "en",
+        "repair ship"
+      ],
+      [
+        "en",
+        "rebuild ship"
+      ],
+      [
+        "en",
+        "buy ship parts"
+      ],
+      [
+        "en",
+        "fix"
+      ],
+      [
+        "en",
+        "fix the ship"
+      ],
+      [
+        "en",
+        "clean"
+      ],
+      [
+        "en",
+        "peace"
+      ],
+      [
+        "en",
+        "befriend them"
+      ],
+      [
+        "en",
+        "befriend"
+      ],
+      [
+        "en",
+        "negotiate"
+      ],
+      [
+        "en",
+        "negotiate a deal"
+      ],
+      [
+        "en",
+        "negotiate"
+      ],
+      [
+        "en",
+        "negotiate peace"
+      ],
+      [
+        "en",
+        "make peace with"
+      ],
+      [
+        "en",
+        "calm"
+      ],
+      [
+        "en",
+        "try to calm"
+      ],
+      [
+        "en",
+        "calm them"
+      ],
+      [
+        "en",
+        "invite them"
+      ],
+      [
+        "en",
+        "hi"
+      ],
+      [
+        "en",
+        "hello"
+      ],
+      [
+        "en",
+        "howdy"
+      ],
+      [
+        "en",
+        "hey"
+      ],
+      [
+        "en",
+        "remove"
+      ],
+      [
+        "en",
+        "go on foot"
+      ],
+      [
+        "en",
+        "send the cew"
+      ],
+      [
+        "en",
+        "foot"
+      ],
+      [
+        "en",
+        "ground"
+      ],
+      [
+        "en",
+        "send a team"
+      ],
+      [
+        "en",
+        "send a crew"
+      ],
+      [
+        "en",
+        "land"
+      ],
+      [
+        "en",
+        "collect"
+      ],
+      [
+        "en",
+        "retrieve"
+      ],
+      [
+        "en",
+        "mine"
+      ],
+      [
+        "en",
+        "defense"
+      ],
+      [
+        "en",
+        "defensively"
+      ],
+      [
+        "en",
+        "shields"
+      ],
+      [
+        "en",
+        "put up the shields"
+      ],
+      [
+        "en",
+        "dodge"
+      ],
+      [
+        "en",
+        "evade"
+      ],
+      [
+        "en",
+        "maneuver"
+      ],
+      [
+        "en",
+        "go around it"
+      ],
+      [
+        "en",
+        "around"
+      ],
+      [
+        "en",
+        "move"
+      ],
+      [
+        "en",
+        "carefully"
+      ],
+      [
+        "en",
+        "careful"
+      ],
+      [
+        "en",
+        "slowly"
+      ],
+      [
+        "en",
+        "slow"
+      ],
+      [
+        "en",
+        "communicate"
+      ],
+      [
+        "en",
+        "try to communicaate"
+      ],
+      [
+        "en",
+        "talk"
+      ],
+      [
+        "en",
+        "talk to"
+      ],
+      [
+        "en",
+        "nothing"
+      ],
+      [
+        "en",
+        "wait"
+      ],
+      [
+        "en",
+        "do nothing"
+      ],
+      [
+        "en",
+        "buy fuel"
+      ],
+      [
+        "en",
+        "fuel"
+      ],
+      [
+        "en",
+        "eat"
+      ],
+      [
+        "en",
+        "consume"
+      ],
+      [
+        "en",
+        "taste"
+      ],
+      [
+        "en",
+        "capture"
+      ],
+      [
+        "en",
+        "cage"
+      ],
+      [
+        "en",
+        "pet"
+      ],
+      [
+        "en",
+        "error"
+      ],
       [
         "en",
         "attack the"

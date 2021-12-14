@@ -132,6 +132,9 @@ function main(message) {
   manager.addDocument("en", "eat", "agent.eat");
   manager.addDocument("en", "consume", "agent.eat");
   manager.addDocument("en", "taste", "agent.eat");
+  manager.addDocument("en", "cook", "agent.eat");
+  manager.addDocument("en", "bake", "agent.eat");
+  manager.addDocument("en", "make a meal", "agent.eat");
 
   manager.addDocument("en", "capture", "agent.capture");
   manager.addDocument("en", "cage", "agent.capture");
