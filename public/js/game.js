@@ -232,7 +232,7 @@ function main(message) {
   manager.addAnswer(
     "en",
     "agent.peace",
-    "We made friends with the entitiy, we lost credits, luckily we had time to repair the ship"
+    "We made friends with the entity, we lost credits, luckily we had time to repair the ship"
   );
   manager.addAnswer(
     "en",
